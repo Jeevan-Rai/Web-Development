@@ -57,8 +57,16 @@ if(isset($_GET['id']) && $_GET['id'] > 0){
                 <input type="text" name="name" id="name" class="form-control rounded-0" required value="<?php echo isset($name) ?$name : '' ?>" />
 			</div>
             <div class="form-group">
+				<label for="imei_no" class="control-label">IMEI Number</label>
+                <input type="text" name="imei_no" id="imei_no" class="form-control rounded-0" <?php echo isset($imei_no) ?$imei_no : '' ?>" />
+			</div>
+            <div class="form-group">
 				<label for="specs" class="control-label">Specs</label>
                 <textarea name="specs" id="" cols="30" rows="2" class="form-control form no-resize summernote"><?php echo isset($specs) ? $specs : ''; ?></textarea>
+			</div>
+            <div class="form-group">
+				<label for="quantity" class="control-label">Quantity</label>
+                <input type="text" name="quantity" id="quantity" class="form-control rounded-0" required value="<?php echo isset($quantity) ?$quantity : '' ?>" />
 			</div>
             <div class="form-group">
 				<label for="status" class="control-label">Status</label>

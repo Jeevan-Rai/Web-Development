@@ -20,6 +20,7 @@
 					<col width="20%">
 					<col width="30%">
 					<col width="10%">
+					<col width="10%">
 					<col width="15%">
 				</colgroup>
 				<thead>
@@ -27,7 +28,9 @@
 						<th>#</th>
 						<th>Name</th>
 						<th>Brand</th>
+						<th>IMEI Number</th>
 						<th>Specs</th>
+						<th>Quantity</th>
 						<th>Status</th>
 						<th>Action</th>
 					</tr>
@@ -46,7 +49,9 @@
 							<td class="text-center"><?php echo $i++; ?></td>
 							<td><?php echo $row['name'] ?></td>
 							<td><?php echo $row['bname'] ?></td>
+							<td><?php echo $row['imei_no'] ?></td>
 							<td ><p class="m-0 truncate"><?php echo $row['specs'] ?></p></td>
+							<td><?php echo $row['quantity'] ?></td>
 							<td class="text-center">
                                 <?php if($row['status'] == 1): ?>
                                     <span class="badge badge-success">Active</span>

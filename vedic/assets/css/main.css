@@ -356,6 +356,7 @@ p{
 }
 .mg-header.mg-header-dark, .mg-header.mg-header-dark .sub-menu, .mg-header.mg-header-dark.sticky {
     background-color: #ffffff;
+    background-image: url(assets\images\Banner\banner-h3-3.jpg);
 }
 .footer-social li:hover a,
 .banner-content-3 h1{

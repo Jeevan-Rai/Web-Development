@@ -1519,6 +1519,10 @@ header.type4 {
     max-width: 135px;
     width: 100%;
     min-width: 96px;
+    background-color: #412236;
+    border-radius:25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .type4.fixed-nav .logo2 img {
@@ -5251,7 +5255,7 @@ ul.theme-ul li img {
 }
 
 .event-list-content:hover {
-    border: 10px solid #d6c590;
+    border: 10px solid #686868;
 }
 
 .event-list-content .crical {
@@ -5276,7 +5280,7 @@ ul.theme-ul li img {
     font-size: 16px;
     margin-right: 20px;
     margin-bottom: 20px;
-    color: #d6c590;
+    color: #565656;
 }
 
 .event-list-content ul li i {
@@ -5367,11 +5371,11 @@ header.shop-1-header.type4.shop-head .logo2 img {
 
 
 .shop-1-header .nav-links1 li a:after{
-    background: #d6c590;
+    background: #6a6a6a;
 }
 
 .shop-1-header .right-menu{
-    background: #d6c590;
+    background: #4b4b4b;
 }
 
 
@@ -5387,7 +5391,7 @@ header.shop-1-header.type4.shop-head .logo2 img {
 }
 
 .shop-1-header .bg-yellow-op-9 {
-    background: #d6c590;
+    background: #ffffff;
 }
 
 .shop-1-header .bg-menu-overlay{

@@ -286,7 +286,7 @@ header.type4 .nav-links1 li a:hover{
 }
 .mg-header.mg-header-dark ul li a,
 .btn-border-out:hover{
-	color: #fff;
+	color: rgb(0, 0, 0);
 	border-color: #fff;
 }
 .block-quote-by:before,
@@ -355,7 +355,7 @@ p{
 	font-family: 'Lato',sans-serif;
 }
 .mg-header.mg-header-dark, .mg-header.mg-header-dark .sub-menu, .mg-header.mg-header-dark.sticky {
-    background-color: #412236;
+    background-color: #ffffff;
 }
 .footer-social li:hover a,
 .banner-content-3 h1{

@@ -1,79 +1,75 @@
-// ---------Responsive-navbar-active-animation-----------
-function test() {
-	var tabsNewAnim = $("#navbarSupportedContent");
-	var selectorNewAnim = $("#navbarSupportedContent").find("li").length;
-	var activeItemNewAnim = tabsNewAnim.find(".active");
-	var activeWidthNewAnimHeight = activeItemNewAnim.innerHeight();
-	var activeWidthNewAnimWidth = activeItemNewAnim.innerWidth();
-	var itemPosNewAnimTop = activeItemNewAnim.position();
-	var itemPosNewAnimLeft = activeItemNewAnim.position();
-	$(".hori-selector").css({
-		top: itemPosNewAnimTop.top + "px",
-		left: itemPosNewAnimLeft.left + "px",
-		height: activeWidthNewAnimHeight + "px",
-		width: activeWidthNewAnimWidth + "px"
-	});
-	$("#navbarSupportedContent").on("click", "li", function (e) {
-		$("#navbarSupportedContent ul li").removeClass("active");
-		$(this).addClass("active");
-		var activeWidthNewAnimHeight = $(this).innerHeight();
-		var activeWidthNewAnimWidth = $(this).innerWidth();
-		var itemPosNewAnimTop = $(this).position();
-		var itemPosNewAnimLeft = $(this).position();
-		$(".hori-selector").css({
-			top: itemPosNewAnimTop.top + "px",
-			left: itemPosNewAnimLeft.left + "px",
-			height: activeWidthNewAnimHeight + "px",
-			width: activeWidthNewAnimWidth + "px"
+(function ($) {
+	$.fn.neumorphicTabs = function () {
+		$(this).each(function () {
+			let tabsNav = $(this).find(".tabs--nav");
+			let tabsContent = $(this).find(".tabs--content");
+
+			tabsNav.append("<div class='tabs--fx'/>");
+
+			let activeNavItem = tabsNav.find(".active").length
+				? tabsNav.find(".active")
+				: tabsNav.children().first();
+			tabsNav.attr(
+				"style",
+				`--tab-width: ${activeNavItem.outerWidth()}px; --tab-position: `
+			);
+
+			let tabsFx = tabsNav.find(".tabs--fx");
+
+			function translateTabsFx(activeEl) {
+				tabsFx.height(activeEl.outerHeight()).animate({
+					opacity: 1,
+					left: activeEl.position().left + parseInt(activeEl.css("marginLeft")),
+					width: activeEl.outerWidth()
+				});
+			}
+
+			translateTabsFx(activeNavItem);
+
+			tabsNav
+				.children()
+				.not("div")
+				.each(function (i) {
+					if (i == 0 && !tabsNav.find(".active").length) $(this).addClass("active");
+					$(this).attr("data-tab", i);
+				});
+
+			tabsContent.children().each(function (i) {
+				if (tabsNav.find(".active").attr("data-tab") == i) {
+					$(this).addClass("active");
+				} else {
+					$(this).hide();
+				}
+				$(this).attr("data-tab", i);
+			});
+
+			tabsNav.children().on("click", function () {
+				let currentTab = $(this);
+				if (currentTab.hasClass("active") || currentTab.hasClass("tabs--fx"))
+					return false;
+				tabsNav.children().each(function () {
+					$(this).addClass("wait-animation");
+				});
+				translateTabsFx(currentTab);
+				tabsNav.find(".active").removeClass("active");
+				currentTab.addClass("active");
+				tabsContent
+					.find(".active")
+					.fadeOut()
+					.promise()
+					.done(function () {
+						tabsContent
+							.find(`[data-tab='${currentTab.attr("data-tab")}']`)
+							.addClass("active")
+							.fadeIn();
+						tabsNav.children().each(function () {
+							$(this).removeClass("wait-animation");
+						});
+					});
+			});
 		});
-	});
-}
-$(document).ready(function () {
-	setTimeout(function () {
-		test();
-	});
-});
-$(window).on("resize", function () {
-	setTimeout(function () {
-		test();
-	}, 500);
-});
-$(".navbar-toggler").click(function () {
-	$(".navbar-collapse").slideToggle(300);
-	setTimeout(function () {
-		test();
-	});
-});
+		return this;
+	};
+})(jQuery);
 
-// --------------add active class-on another-page move----------
-jQuery(document).ready(function ($) {
-	// Get current path and find target link
-	var path = window.location.pathname.split("/").pop();
-
-	// Account for home page with empty path
-	if (path == "") {
-		path = "index.html";
-	}
-
-	var target = $('#navbarSupportedContent ul li a[href="' + path + '"]');
-	// Add active class to target link
-	target.parent().addClass("active");
-});
-
-// Add active class on another page linked
-// ==========================================
-// $(window).on('load',function () {
-//     var current = location.pathname;
-//     console.log(current);
-//     $('#navbarSupportedContent ul li a').each(function(){
-//         var $this = $(this);
-//         // if the current path is like this link, make it active
-//         if($this.attr('href').indexOf(current) !== -1){
-//             $this.parent().addClass('active');
-//             $this.parents('.menu-submenu').addClass('show-dropdown');
-//             $this.parents('.menu-submenu').parent().addClass('active');
-//         }else{
-//             $this.parent().removeClass('active');
-//         }
-//     })
-// });
+$(".tabs").neumorphicTabs();

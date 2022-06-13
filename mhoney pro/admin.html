@@ -1,0 +1,1000 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png" />
+  <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/animate.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/nice-select.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/slick.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/main-color.css">
+
+  <title>Administrator</title>
+</head>
+
+<body>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.0.min.js"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+  <link rel="stylesheet" href="tphts://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- navigation -->
+
+
+  <style>
+    @import url("https://fonts.googleapis.com/css?family=Roboto");
+    @import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+    
+    body {
+      font-family: "Roboto", sans-serif;
+    }
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    i {
+      margin-right: 10px;
+    }
+    /*----------bootstrap-navbar-css------------*/
+    .navbar-logo {
+      padding: 15px;
+      color: #fff;
+    }
+    .navbar-mainbg {
+      background-color: #ffd835;
+      padding: 0px;
+    }
+    #navbarSupportedContent {
+      overflow: hidden;
+      position: relative;
+    }
+    #navbarSupportedContent ul {
+      padding: 0px;
+      margin: 0px;
+    }
+    #navbarSupportedContent ul li a i {
+      margin-right: 10px;
+    }
+    #navbarSupportedContent li {
+      list-style-type: none;
+      float: left;
+    }
+    #navbarSupportedContent ul li a {
+      color: #800000;
+      text-decoration: none;
+      font-size: 15px;
+      display: block;
+      padding: 20px 20px;
+      transition-duration: 0.6s;
+      transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+      position: relative;
+    }
+    #navbarSupportedContent > ul > li.active > a {
+      color: #800000;
+      background-color: transparent;
+      transition: all 0.7s;
+    }* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    :root {
+      --shadow-white: white;
+      --shadow-gray: #c8d0e7;
+      --bg-gray: #ffd845;
+      --text-purple: #ff0000;
+    }
+    
+    .tabs {
+      width: 100%;
+    }
+    
+    .tabs .tabs--nav {
+      position: relative;
+      display: inline-flex;
+      align-items: center;
+      padding: 10px;
+      box-shadow: 1rem 0.3rem 0.6rem -0.6rem var(--shadow-gray),
+        -0.2rem -0.2rem 0.5rem var(--shadow-white);
+      border-radius: 1rem 1rem 0 0;
+      background-color: var(--bg-gray);
+      width: 100%;
+    }
+    
+    .tabs .tabs--nav span {
+      padding: 15px;
+      display: block;
+      transition-delay: 0s;
+      transition-duration: 0.5s;
+      border-radius: 0.75rem;
+      cursor: pointer;
+    }
+    
+    .tabs .tabs--nav span.wait-animation {
+      pointer-events: none;
+    }
+    
+    .tabs .tabs--nav span:not(:first-of-type):not(:last-of-type) {
+      margin: 0 10px;
+    }
+    
+    .tabs .tabs--nav span.active {
+      color: var(--text-purple);
+      transition-delay: 0.25s;
+      transition-duration: 0.5s;
+    }
+    
+    .tabs .tabs--nav span:not(.active):hover {
+      /* 	box-shadow: inset 0.15em 0.15em 0.15em var(--shadow-white),
+        inset -0.15em -0.15em 0.15em var(--shadow-gray),
+        0.3rem 0.3rem 0.6rem var(--shadow-gray),
+        -0.3rem -0rem 0.6rem var(--shadow-white); */
+      box-shadow: inset 0.2rem 0.2rem 0.5rem var(--shadow-gray),
+        inset -0.2rem -0.2rem 0.5rem var(--shadow-white);
+    }
+    
+    .tabs .tabs--nav .tabs--fx {
+      position: absolute;
+      /* 	box-shadow: inset 0.2rem 0.2rem 0.5rem var(--shadow-gray),
+        inset -0.2rem -0.2rem 0.5rem var(--shadow-white); */
+      box-shadow: inset 0.15em 0.15em 0.15em var(--shadow-white),
+        inset -0.15em -0.15em 0.15em var(--shadow-gray),
+        0.3rem 0.3rem 0.6rem var(--shadow-gray),
+        -0.3rem -0rem 0.6rem var(--shadow-white);
+      border-radius: 0.75rem;
+      opacity: 0;
+    }
+    
+    .tabs .tabs--content {
+      padding: 20px;
+      box-shadow: 0.3rem 0.3rem 0.6rem var(--shadow-gray),
+        -0.2rem -0.2rem 0.5rem var(--shadow-white);
+      border-radius: 0 1rem 1rem 1rem;
+      background-color: var(--bg-gray);
+    }
+    
+    .tabs .tabs--content h2 {
+      color: var(--text-purple);
+    }
+    
+    .social-media {
+      position: fixed;
+      bottom: 15px;
+      right: 15px;
+      display: flex;
+    }
+    
+    .social-media > * {
+      width: 60px;
+      height: 60px;
+      background-color: var(--bg-gray);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-decoration: none;
+      font-size: 24px;
+      box-shadow: inset 0.15em 0.15em 0.15em var(--shadow-white),
+        inset -0.15em -0.15em 0.15em var(--shadow-gray),
+        0.3rem 0.3rem 0.6rem var(--shadow-gray),
+        -0.3rem -0rem 0.6rem var(--shadow-white);
+      border-radius: 50%;
+      margin: 5px;
+      transition: 0.3s;
+    }
+    
+    .social-media > *:hover {
+      transform: translateY(-5px);
+    }
+    
+    .fa-twitter {
+      color: #19a9dd;
+    }
+    
+    .fa-github,
+    .fa-codepen {
+      color: #010101;
+    }
+    
+    .fa-linkedin {
+      color: #19a9dd;
+    }
+    
+    .fa-instagram {
+      color: #ff0066;
+    }
+    
+    
+    </style>
+
+    <div class="tabs">
+      <div class="tabs--nav">
+        <a href="index.html"><span>Home</span></a>
+        <a href="admin.html"><span>Admin</span></a>
+        <a href="gallery.html"><span>Commitee</span></a>
+      </div>
+    </div>
+  
+
+
+
+  <!-- preloader -->
+  <div id="biof-loading">
+    <div class="biof-loading-center">
+      <div class="biof-loading-center-absolute">
+        <div class="dot dot-one"></div>
+        <div class="dot dot-two"></div>
+        <div class="dot dot-three"></div>
+      </div>
+    </div>
+  </div>
+  <!-- HEADER -->
+  <header id="header" class="header-area style-01 layout-03">
+    <!-- <div class="header-top bg-main hidden-xs" style="background-color: rgb(75, 75, 75); height: fit-content;">
+                <div class="container">
+                    <div class="top-bar left">
+                        <ul class="horizontal-menu">
+                            <li><a href="https://comskbkmadhurihoney.puttur@gmail.com/"><i class="fa fa-envelope"
+                                        aria-hidden="true"></i>skbkmadhurihoney.puttur@gmail.com</a></li> -->
+    <!-- <li><a href="#">Free Shipping for all Order of Rs.99</a></li> -->
+    <!-- </ul>
+                    </div>
+                    <div class="top-bar right">
+                        <ul class="social-list">
+                            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+                        </ul>
+                        <ul class="horizontal-menu"> -->
+
+
+    <!-- <li><a href="login.html" class="login-link"><i class="biolife-icon icon-login"></i>Login/Register</a></li> -->
+    <!-- </ul>
+                    </div>
+                </div>
+            </div> -->
+  </header>
+
+
+
+
+
+  <style>
+    .team-bg {
+      background-color: #f8f9fa;
+      overflow: hidden;
+    }
+
+    .team .section-title {
+      padding-bottom: 40px;
+    }
+
+    .team .section-title .main-team-subheading {
+      font-size: 14px;
+      font-weight: 500;
+      padding: 0;
+      line-height: 1px;
+      margin: 0 0 5px 0;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #aaaaaa;
+    }
+
+    .team .section-title .main-team-subheading::after {
+      content: "";
+      width: 120px;
+      height: 1px;
+      display: inline-block;
+      background: #556270;
+      margin: 4px 10px;
+    }
+
+    .team .main-team-heading {
+      margin: 0;
+      font-size: 36px;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: #556270;
+    }
+
+    .team .member {
+      position: relative;
+      box-shadow: 0px 2px 15px rgba(85, 98, 112, 0.08);
+      padding: 30px;
+      border-radius: 4px;
+      background: #fff;
+    }
+
+    .team .member .pic {
+      overflow: hidden;
+      width: 140px;
+      border-radius: 4px;
+    }
+
+    .team .member .pic img {
+      transition: ease-in-out 0.3s;
+    }
+
+    .team .member:hover img {
+      transform: scale(1.1);
+    }
+
+    .team .member .member-info {
+      padding-left: 30px;
+    }
+
+    .team .member .member-heading {
+      font-weight: 700;
+      margin-bottom: 5px;
+      font-size: 20px;
+      color: #556270;
+      line-height: 1.2;
+    }
+
+    .team .member span {
+      display: block;
+      font-size: 15px;
+      padding-bottom: 10px;
+      position: relative;
+      font-weight: 500;
+    }
+
+    .team .member span::after {
+      content: '';
+      position: absolute;
+      display: block;
+      width: 50px;
+      height: 1px;
+      background: #dee2e6;
+      bottom: 0;
+      left: 0;
+    }
+
+    .team .member .member-para {
+      margin: 10px 0 0 0;
+      font-size: 14px;
+    }
+
+    .team .member .social {
+      margin-top: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+    }
+
+    .team .member .social a {
+      transition: ease-in-out 0.3s;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 4px;
+      width: 32px;
+      height: 32px;
+      background: #8795a4;
+    }
+
+    .team .member .social a+a {
+      margin-left: 8px;
+    }
+
+    .team .member .social a:hover {
+      background: #41A1FD;
+    }
+
+    .team .member .social a .team-icon {
+      color: #fff;
+      font-size: 16px;
+      margin: 0 2px;
+    }
+  </style>
+
+
+
+
+  <section id="team" class="team team-bg py-5">
+    <div class="container">
+
+      <div class="section-title">
+        <p class="main-team-subheading">Team</p>
+        <p class="main-team-heading">Our Hardworking Team</p>
+      </div>
+
+      <div class="row">
+
+        <div class="col-lg-6">
+          <div class="member d-flex align-items-start">
+            <div class="pic"><img src="/mhoney/assets/images/admin-page-images/1 Chandra Kolchar ,.jpg"
+                class="img-fluid" alt=""></div>
+            <div class="member-info">
+              <p class="member-heading">Chandra Kolchar</p>
+              <span>DESIGNATION</span>
+              <p class="member-para">DESCRIPTION</p>
+              <div class="social">
+                <!-- <a href=""><i class="fab fa-twitter team-icon"></i></a>
+                        <a href=""><i class="fab fa-facebook-f team-icon"></i></a>
+                        <a href=""><i class="fab fa-instagram team-icon"></i></a>
+                        <a href=""> <i class="fab fa-linkedin-in team-icon"></i> </a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 mt-4 mt-lg-0">
+          <div class="member d-flex align-items-start">
+            <div class="pic"><img src="/mhoney/assets/images/admin-page-images/2-shyama bhat.jpg" class="img-fluid"
+                alt=""></div>
+            <div class="member-info">
+              <p class="member-heading">shyama bhat</p>
+              <span>DESIGNATION</span>
+              <p class="member-para">DESCRIPTION</p>
+              <div class="social">
+                <!-- <a href=""><i class="fab fa-twitter team-icon"></i></a>
+                        <a href=""><i class="fab fa-facebook-f team-icon"></i></a>
+                        <a href=""><i class="fab fa-instagram team-icon"></i></a>
+                        <a href=""> <i class="fab fa-linkedin-in team-icon"></i> </a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 mt-4">
+          <div class="member d-flex align-items-start">
+            <div class="pic"><img src="/mhoney/assets/images/admin-page-images/3-Janardana Chunthar.jpeg"
+                class="img-fluid" alt=""></div>
+            <div class="member-info">
+              <p class="member-heading">Janardana Chunthar</p>
+              <span>DESIGNATION</span>
+              <p class="member-para">DESCRIPTION</p>
+              <div class="social">
+                <!-- <a href=""><i class="fab fa-twitter team-icon"></i></a>
+                        <a href=""><i class="fab fa-facebook-f team-icon"></i></a>
+                        <a href=""><i class="fab fa-instagram team-icon"></i></a>
+                        <a href=""> <i class="fab fa-linkedin-in team-icon"></i> </a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 mt-4">
+          <div class="member d-flex align-items-start">
+            <div class="pic"><img src="/mhoney/assets/images/admin-page-images/4 Thaniyappa.jpg" class="img-fluid"
+                alt=""></div>
+            <div class="member-info">
+              <p class="member-heading">Thaniyappa</p>
+              <span>DESIGNATION</span>
+              <p class="member-para">DESCRIPTION</p>
+              <div class="social">
+                <!-- <a href=""><i class="fab fa-twitter team-icon"></i></a>
+                        <a href=""><i class="fab fa-facebook-f team-icon"></i></a>
+                        <a href=""><i class="fab fa-instagram team-icon"></i></a>
+                        <a href=""> <i class="fab fa-linkedin-in team-icon"></i> </a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 mt-4">
+          <div class="member d-flex align-items-start">
+            <div class="pic"><img src="/mhoney/assets/images/admin-page-images/5-Shrisha-K.jpeg" class="img-fluid"
+                alt=""></div>
+            <div class="member-info">
+              <p class="member-heading">Shrisha-K</p>
+              <span>DESIGNATION</span>
+              <p class="member-para">DESCRIPTION</p>
+              <div class="social">
+                <!-- <a href=""><i class="fab fa-twitter team-icon"></i></a>
+                          <a href=""><i class="fab fa-facebook-f team-icon"></i></a>
+                          <a href=""><i class="fab fa-instagram team-icon"></i></a>
+                          <a href=""> <i class="fab fa-linkedin-in team-icon"></i> </a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 mt-4">
+          <div class="member d-flex align-items-start">
+            <div class="pic"><img src="/mhoney/assets/images/admin-page-images/6 Sundara Gowda.jpeg" class="img-fluid"
+                alt=""></div>
+            <div class="member-info">
+              <p class="member-heading">Sundara Gowda</p>
+              <span>DESIGNATION</span>
+              <p class="member-para">DESCRIPTION</p>
+              <div class="social">
+                <!-- <a href=""><i class="fab fa-twitter team-icon"></i></a>
+                          <a href=""><i class="fab fa-facebook-f team-icon"></i></a>
+                          <a href=""><i class="fab fa-instagram team-icon"></i></a>
+                          <a href=""> <i class="fab fa-linkedin-in team-icon"></i> </a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 mt-4">
+          <div class="member d-flex align-items-start">
+            <div class="pic"><img src="/mhoney/assets/images/admin-page-images/7 Indira k.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="member-info">
+              <p class="member-heading">Indira k</p>
+              <span>DESIGNATION</span>
+              <p class="member-para">DESCRIPTION</p>
+              <div class="social">
+                <!-- <a href=""><i class="fab fa-twitter team-icon"></i></a>
+                          <a href=""><i class="fab fa-facebook-f team-icon"></i></a>
+                          <a href=""><i class="fab fa-instagram team-icon"></i></a>
+                          <a href=""> <i class="fab fa-linkedin-in team-icon"></i> </a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 mt-4">
+          <div class="member d-flex align-items-start">
+            <div class="pic"><img src="/mhoney/assets/images/admin-page-images/8 Panduranga Hegde.jpg" class="img-fluid"
+                alt=""></div>
+            <div class="member-info">
+              <p class="member-heading">Panduranga Hegde</p>
+              <span>DESIGNATION</span>
+              <p class="member-para">DESCRIPTION</p>
+              <div class="social">
+                <!-- <a href=""><i class="fab fa-twitter team-icon"></i></a>
+                          <a href=""><i class="fab fa-facebook-f team-icon"></i></a>
+                          <a href=""><i class="fab fa-instagram team-icon"></i></a>
+                          <a href=""> <i class="fab fa-linkedin-in team-icon"></i> </a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 mt-4">
+          <div class="member d-flex align-items-start">
+            <div class="pic"><img src="/mhoney/assets/images/admin-page-images/9 Harish-Kodla.jpg" class="img-fluid"
+                alt=""></div>
+            <div class="member-info">
+              <p class="member-heading">Harish-Kodla</p>
+              <span>DESIGNATION</span>
+              <p class="member-para">DESCRIPTION</p>
+              <div class="social">
+                <!-- <a href=""><i class="fab fa-twitter team-icon"></i></a>
+                          <a href=""><i class="fab fa-facebook-f team-icon"></i></a>
+                          <a href=""><i class="fab fa-instagram team-icon"></i></a>
+                          <a href=""> <i class="fab fa-linkedin-in team-icon"></i> </a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 mt-4">
+          <div class="member d-flex align-items-start">
+            <div class="pic"><img src="/mhoney/assets/images/admin-page-images/10 Rajaram-Shetty.jpg" class="img-fluid"
+                alt=""></div>
+            <div class="member-info">
+              <p class="member-heading">Rajaram-Shetty</p>
+              <span>DESIGNATION</span>
+              <p class="member-para">DESCRIPTION</p>
+              <div class="social">
+                <!-- <a href=""><i class="fab fa-twitter team-icon"></i></a>
+                          <a href=""><i class="fab fa-facebook-f team-icon"></i></a>
+                          <a href=""><i class="fab fa-instagram team-icon"></i></a>
+                          <a href=""> <i class="fab fa-linkedin-in team-icon"></i> </a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 mt-4">
+          <div class="member d-flex align-items-start">
+            <div class="pic"><img src="/mhoney/assets/images/admin-page-images/11 purushothama.jpg" class="img-fluid"
+                alt=""></div>
+            <div class="member-info">
+              <p class="member-heading">purushothama</p>
+              <span>DESIGNATION</span>
+              <p class="member-para">DESCRIPTION</p>
+              <div class="social">
+                <!-- <a href=""><i class="fab fa-twitter team-icon"></i></a>
+                          <a href=""><i class="fab fa-facebook-f team-icon"></i></a>
+                          <a href=""><i class="fab fa-instagram team-icon"></i></a>
+                          <a href=""> <i class="fab fa-linkedin-in team-icon"></i> </a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 mt-4">
+          <div class="member d-flex align-items-start">
+            <div class="pic"><img src="/mhoney/assets/images/admin-page-images/13  shivananda.jpg" class="img-fluid"
+                alt=""></div>
+            <div class="member-info">
+              <p class="member-heading">shivananda</p>
+              <span>DESIGNATION</span>
+              <p class="member-para">DESCRIPTION</p>
+              <div class="social">
+                <!-- <a href=""><i class="fab fa-twitter team-icon"></i></a>
+                          <a href=""><i class="fab fa-facebook-f team-icon"></i></a>
+                          <a href=""><i class="fab fa-instagram team-icon"></i></a>
+                          <a href=""> <i class="fab fa-linkedin-in team-icon"></i> </a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 mt-4">
+          <div class="member d-flex align-items-start">
+            <div class="pic"><img src="/mhoney/assets/images/admin-page-images/14 Manamohana.jpg" class="img-fluid"
+                alt=""></div>
+            <div class="member-info">
+              <p class="member-heading">Manamohana</p>
+              <span>DESIGNATION</span>
+              <p class="member-para">DESCRIPTION</p>
+              <div class="social">
+                <!-- <a href=""><i class="fab fa-twitter team-icon"></i></a>
+                          <a href=""><i class="fab fa-facebook-f team-icon"></i></a>
+                          <a href=""><i class="fab fa-instagram team-icon"></i></a>
+                          <a href=""> <i class="fab fa-linkedin-in team-icon"></i> </a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 mt-4">
+          <div class="member d-flex align-items-start">
+            <div class="pic"><img src="/mhoney/assets/images/admin-page-images/16 Thimmaya.jpg" class="img-fluid"
+                alt=""></div>
+            <div class="member-info">
+              <p class="member-heading">Thimmaya</p>
+              <span>DESIGNATION</span>
+              <p class="member-para">DESCRIPTION</p>
+              <div class="social">
+                <!-- <a href=""><i class="fab fa-twitter team-icon"></i></a>
+                          <a href=""><i class="fab fa-facebook-f team-icon"></i></a>
+                          <a href=""><i class="fab fa-instagram team-icon"></i></a>
+                          <a href=""> <i class="fab fa-linkedin-in team-icon"></i> </a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 mt-4">
+          <div class="member d-flex align-items-start">
+            <div class="pic"><img src="/mhoney/assets/images/admin-page-images/Govinda Bhat.jpg" class="img-fluid"
+                alt=""></div>
+            <div class="member-info">
+              <p class="member-heading">Govinda Bhat</p>
+              <span>DESIGNATION</span>
+              <p class="member-para">DESCRIPTION</p>
+              <div class="social">
+                <!-- <a href=""><i class="fab fa-twitter team-icon"></i></a>
+                          <a href=""><i class="fab fa-facebook-f team-icon"></i></a>
+                          <a href=""><i class="fab fa-instagram team-icon"></i></a>
+                          <a href=""> <i class="fab fa-linkedin-in team-icon"></i> </a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 mt-4">
+          <div class="member d-flex align-items-start">
+            <div class="pic"><img src="/mhoney/assets/images/admin-page-images/4-Shankara Peraje.jpeg" class="img-fluid"
+                alt=""></div>
+            <div class="member-info">
+              <p class="member-heading">Shankara Peraje</p>
+              <span>DESIGNATION</span>
+              <p class="member-para">DESCRIPTION</p>
+              <div class="social">
+                <!-- <a href=""><i class="fab fa-twitter team-icon"></i></a>
+                          <a href=""><i class="fab fa-facebook-f team-icon"></i></a>
+                          <a href=""><i class="fab fa-instagram team-icon"></i></a>
+                          <a href=""> <i class="fab fa-linkedin-in team-icon"></i> </a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 mt-4">
+          <div class="member d-flex align-items-start">
+            <div class="pic"><img src="/mhoney/assets/images/admin-page-images/5-Saraswathi Y P.jpeg" class="img-fluid"
+                alt=""></div>
+            <div class="member-info">
+              <p class="member-heading">Saraswathi Y P</p>
+              <span>DESIGNATION</span>
+              <p class="member-para">DESCRIPTION</p>
+              <div class="social">
+                <!-- <a href=""><i class="fab fa-twitter team-icon"></i></a>
+                          <a href=""><i class="fab fa-facebook-f team-icon"></i></a>
+                          <a href=""><i class="fab fa-instagram team-icon"></i></a>
+                          <a href=""> <i class="fab fa-linkedin-in team-icon"></i> </a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 mt-4">
+          <div class="member d-flex align-items-start">
+            <div class="pic"><img src="/mhoney/assets/images/admin-page-images/6-Susheela.jpeg" class="img-fluid"
+                alt=""></div>
+            <div class="member-info">
+              <p class="member-heading">Susheela</p>
+              <span>DESIGNATION</span>
+              <p class="member-para">DESCRIPTION</p>
+              <div class="social">
+                <!-- <a href=""><i class="fab fa-twitter team-icon"></i></a>
+                          <a href=""><i class="fab fa-facebook-f team-icon"></i></a>
+                          <a href=""><i class="fab fa-instagram team-icon"></i></a>
+                          <a href=""> <i class="fab fa-linkedin-in team-icon"></i> </a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 mt-4">
+          <div class="member d-flex align-items-start">
+            <div class="pic"><img src="/mhoney/assets/images/admin-page-images/2-Puttanna Gowda Kaduthota.jpeg"
+                class="img-fluid" alt=""></div>
+            <div class="member-info">
+              <p class="member-heading">Puttanna Gowda Kaduthota</p>
+              <span>DESIGNATION</span>
+              <p class="member-para">DESCRIPTION</p>
+              <div class="social">
+                <!-- <a href=""><i class="fab fa-twitter team-icon"></i></a>
+                          <a href=""><i class="fab fa-facebook-f team-icon"></i></a>
+                          <a href=""><i class="fab fa-instagram team-icon"></i></a>
+                          <a href=""> <i class="fab fa-linkedin-in team-icon"></i> </a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+  <!-- <div class="container">
+            <div class="grid">
+                <div class="card">
+                    <div class="card_img">
+                        <img src="1 Chandra Kolchar ,.jpg" alt="">
+                    </div>
+                    <div class="card_body">
+                        <h2 class="card_title">Chandra Kolchar</h2>
+                        <h6 class="designation">Lead Developer</h6>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_img">
+                        <img src="2-shyama bhat.jpg" alt="">
+                    </div>
+                    <div class="card_body">
+                        <h2 class="card_title">shyama bhat</h2>
+                        <h6 class="designation">UI Designer</h6>
+                        <div class="call_btn">
+                            <a href="#" class="btn_icon">
+                                <i class="fas fa-phone-alt"></i>
+                                <span class="circle"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_img">
+                        <img src="3-Janardana Chunthar.jpeg" alt="">
+                    </div>
+                    <div class="card_body">
+                        <h2 class="card_title">Janardana Chunthar</h2>
+                        <h6 class="designation">Project Manager</h6>
+                        <div class="call_btn">
+                            <a href="#" class="btn_icon">
+                                <i class="fas fa-phone-alt"></i>
+                                <span class="circle"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_img">
+                        <img src="4 Thaniyappa.jpg" alt="">
+                    </div>
+                    <div class="card_body">
+                        <h2 class="card_title">Thaniyappa</h2>
+                        <h6 class="designation">Project Manager</h6>
+                        <div class="call_btn">
+                            <a href="#" class="btn_icon">
+                                <i class="fas fa-phone-alt"></i>
+                                <span class="circle"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_img">
+                        <img src="5-Shrisha-K.jpeg" alt="">
+                    </div>
+                    <div class="card_body">
+                        <h2 class="card_title">Shrisha-K</h2>
+                        <h6 class="designation">Project Manager</h6>
+                        <div class="call_btn">
+                            <a href="#" class="btn_icon">
+                                <i class="fas fa-phone-alt"></i>
+                                <span class="circle"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_img">
+                        <img src="6 Sundara Gowda.jpeg" alt="">
+                    </div>
+                    <div class="card_body">
+                        <h2 class="card_title">Sundara Gowda</h2>
+                        <h6 class="designation">Project Manager</h6>
+                        <div class="call_btn">
+                            <a href="#" class="btn_icon">
+                                <i class="fas fa-phone-alt"></i>
+                                <span class="circle"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_img">
+                        <img src="7 Indira k.jpg" alt="">
+                    </div>
+                    <div class="card_body">
+                        <h2 class="card_title">Indira k</h2>
+                        <h6 class="designation">Project Manager</h6>
+                        <div class="call_btn">
+                            <a href="#" class="btn_icon">
+                                <i class="fas fa-phone-alt"></i>
+                                <span class="circle"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_img">
+                        <img src="8 Panduranga Hegde.jpg" alt="">
+                    </div>
+                    <div class="card_body">
+                        <h2 class="card_title">Panduranga Hegde</h2>
+                        <h6 class="designation">Project Manager</h6>
+                        <div class="call_btn">
+                            <a href="#" class="btn_icon">
+                                <i class="fas fa-phone-alt"></i>
+                                <span class="circle"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_img">
+                        <img src="9 Harish-Kodla.jpg" alt="">
+                    </div>
+                    <div class="card_body">
+                        <h2 class="card_title">Harish-Kodla</h2>
+                        <h6 class="designation">Project Manager</h6>
+                        <div class="call_btn">
+                            <a href="#" class="btn_icon">
+                                <i class="fas fa-phone-alt"></i>
+                                <span class="circle"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_img">
+                        <img src="10 Rajaram-Shetty.jpg" alt="">
+                    </div>
+                    <div class="card_body">
+                        <h2 class="card_title">Rajaram-Shetty</h2>
+                        <h6 class="designation">Project Manager</h6>
+                        <div class="call_btn">
+                            <a href="#" class="btn_icon">
+                                <i class="fas fa-phone-alt"></i>
+                                <span class="circle"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_img">
+                        <img src="11 purushothama.jpg" alt="">
+                    </div>
+                    <div class="card_body">
+                        <h2 class="card_title">purushothama</h2>
+                        <h6 class="designation">Project Manager</h6>
+                        <div class="call_btn">
+                            <a href="#" class="btn_icon">
+                                <i class="fas fa-phone-alt"></i>
+                                <span class="circle"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_img">
+                        <img src="13  shivananda.jpg" alt="">
+                    </div>
+                    <div class="card_body">
+                        <h2 class="card_title">shivananda</h2>
+                        <h6 class="designation">Project Manager</h6>
+                        <div class="call_btn">
+                            <a href="#" class="btn_icon">
+                                <i class="fas fa-phone-alt"></i>
+                                <span class="circle"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_img">
+                        <img src="14 Manamohana.jpg" alt="">
+                    </div>
+                    <div class="card_body">
+                        <h2 class="card_title">Manamohana</h2>
+                        <h6 class="designation">Project Manager</h6>
+                        <div class="call_btn">
+                            <a href="#" class="btn_icon">
+                                <i class="fas fa-phone-alt"></i>
+                                <span class="circle"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_img">
+                        <img src="16 Thimmaya.jpg" alt="">
+                    </div>
+                    <div class="card_body">
+                        <h2 class="card_title">Thimmaya</h2>
+                        <h6 class="designation">Project Manager</h6>
+                        <div class="call_btn">
+                            <a href="#" class="btn_icon">
+                                <i class="fas fa-phone-alt"></i>
+                                <span class="circle"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div> -->
+  <hr>
+  <script src="assets/js/jquery-3.4.1.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/jquery.countdown.min.js"></script>
+  <script src="assets/js/jquery.nice-select.min.js"></script>
+  <script src="assets/js/jquery.nicescroll.min.js"></script>
+  <script src="assets/js/slick.min.js"></script>
+  <script src="assets/js/biolife.framework.js"></script>
+  <script src="assets/js/functions.js"></script>
+
+
+</body>
+
+</html>

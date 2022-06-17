@@ -1,0 +1,182 @@
+#naac-menu ul {
+  margin: 0;
+  padding: 0;
+}
+
+#naac-menu .main-menu {
+  display: none;
+}
+#naac-menu .main-menu a{background: #ffb900; font-size: 16px; font-weight: 600; color: #07294d;}
+#tm:checked + .main-menu {
+  display: block;
+}
+
+#naac-menu input[type="checkbox"],
+#naac-menu ul span.drop-icon {
+  display: none;
+}
+
+#naac-menu li,
+#toggle-menu,
+#naac-menu .sub-menu {
+  border-style: solid;
+  border-color: rgba(0, 0, 0, .05);
+}
+
+#naac-menu li,
+#toggle-menu {
+  border-width: 0 0 1px;
+}
+
+#naac-menu .sub-menu {
+  background-color: #444;
+  border-width: 1px 1px 0;
+  margin: 0 1em;
+}
+
+#naac-menu .sub-menu li:last-child {
+  border-width: 0;
+}
+
+#naac-menu li,
+#toggle-menu,
+#naac-menu a {
+  position: relative;
+  display: block;
+  color: white;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, .125);
+  text-align: left;
+}
+
+#naac-menu {
+  margin-top: -100px;
+}
+
+#toggle-menu {
+  background: #333;
+}
+
+#toggle-menu,
+#naac-menu a {
+  padding: 1em 1.5em;
+}
+
+#naac-menu a {
+  transition: all .125s ease-in-out;
+  -webkit-transition: all .125s ease-in-out;
+}
+
+#naac-menu a:hover {
+  background-color: white;
+  color: #09c;
+}
+
+#naac-menu .sub-menu {
+  display: none;
+}
+
+#naac-menu input[type="checkbox"]:checked + .sub-menu {
+  display: block;
+}
+
+#naac-menu .sub-menu a:hover {
+  color: #444;
+}
+
+#toggle-menu .drop-icon,
+#naac-menu li label.drop-icon {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+#naac-menu label.drop-icon, #toggle-menu span.drop-icon {
+  padding: 1em;
+  font-size: 1em;
+  text-align: center;
+  background-color: rgba(0, 0, 0, .125);
+  text-shadow: 0 0 0 transparent;
+  color: rgba(255, 255, 255, .75);
+}
+
+@media only screen and (min-width: 1024px) {
+  #naac-menu .main-menu {
+    display: block;
+  }
+
+  #toggle-menu,
+  #naac-menu label.drop-icon {
+    display: none;
+  }
+
+  #naac-menu ul span.drop-icon {
+    display: inline-block;
+  }
+
+  #naac-menu li {
+    float: left;
+    border-width: 0 4px 0 0;
+  }
+
+  #naac-menu .sub-menu li {
+    float: none;
+  }
+
+  #naac-menu .sub-menu {
+    border-width: 0;
+    margin: 0;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 25em;
+    z-index: 3000;
+  }
+
+  #naac-menu .sub-menu,
+  #naac-menu input[type="checkbox"]:checked + .sub-menu {
+    display: none;
+  }
+
+  #naac-menu .sub-menu li {
+    border-width: 0 0 1px;
+  }
+
+  #naac-menu .sub-menu .sub-menu {
+    top: 0;
+    left: 100%;
+  }
+
+ #naac-menu .sub-menu .drop-icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 1em;
+  }
+
+  #naac-menu li:hover > input[type="checkbox"] + .sub-menu {
+    display: block;
+  }
+}
+@media (max-width: 767px){
+  #naac-menu {
+    position: relative; top: 0%;
+  }
+
+}
+.naac-banner{position: relative; z-index: 1;}
+.naac-banner:before{background:rgba(0,0,0,0.1); content:""; height:100%;left:0; position:absolute; top:0; width:100%; z-index:0;}
+.naac{padding: 20px 0 60px 0 !important;}
+.naac h1{text-align: center;font-size: 34px; color: #07294d; border: 0; margin-top: 50px;}
+.spl-box{display: block; text-align: center; padding: 35px 15px; margin: 40px 0 0 0; background: #ffb900; font-size: 20px; font-weight: 500; border:2px solid #ffb900;}
+.spl-box:hover{border:2px solid #ffb900; color: #ffb900; background: transparent;}
+.naac-btn-one{border:2px solid #033273;border-radius:25px;color:#fff;margin-top:20px;letter-spacing:1px;text-transform:uppercase;padding:0px;line-height:1;font-size:12px;background:#033273;display:inline-block; width: 100%;}
+.naac-btn-one i{display: inline-block; padding: 10px; float: left; width: 10%; font-size: 20px;}
+.naac-btn-one span{display: inline-block; padding: 10px; float: left; width: 90%; line-height: 17px; text-align: left; font-weight: 500; font-size: 14px;}
+.naac-btn-one:hover{border:2px solid #033273;background:none;color:#033273;}
+ul.naac-list{padding: 0; margin: 0; list-style: none;}
+ul.naac-list li{padding-bottom: 35px; font-size: 16px; font-weight: 500; line-height: 26px;}
+.iqac-content-box{display: block; width: 100%; background: #fff; border-bottom: 5px solid #07294d; padding-bottom: 30px; margin-bottom: 40px;}
+.iqac-content-box h2{border-bottom: 0px solid #07294d; color: #07294d; padding: 8px; font-size: 22px; text-align: center; background: #ffb900;}
+.iqac-content-box h3{border-bottom: 1px solid #07294d; background: #07294d; color: #fff; padding: 8px; font-size: 18px;}
+.iqac-content-box img{display: block; margin: 0 auto;}
+.iqac-content-box p{margin: 0; padding: 5px 20px 0px 20px; font-size: 16px; line-height: 26px;}

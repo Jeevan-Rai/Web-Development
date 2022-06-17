@@ -1,0 +1,64 @@
+@font-face {
+    font-family:'GothamXNarrowMedium';
+    src: url('GothamXNarrow-Medium.eot');
+    src: url('GothamXNarrow-Mediumd41d.eot?#iefix') format('embedded-opentype'),
+         url('GothamXNarrow-Medium.woff') format('woff'),
+         url('GothamXNarrow-Medium.ttf') format('truetype'),
+         url('GothamXNarrow-Medium.svg#GothamXNarrowMedium') format('svg');
+    font-weight: normal; font-style: normal;
+}
+@font-face {
+    font-family:'GothamMedium';
+    src: url('Gotham-Medium.eot');
+    src: url('Gotham-Mediumd41d.eot?#iefix') format('embedded-opentype'),
+         url('Gotham-Medium.woff') format('woff'),
+         url('Gotham-Medium.ttf') format('truetype'),
+         url('Gotham-Medium.svg#GothamMedium') format('svg');
+    font-weight: normal; font-style: normal;
+}
+@font-face {
+    font-family:'Gothambook';
+    src: url('Gotham-Book.eot');
+    src: url('Gotham-Bookd41d.eot?#iefix') format('embedded-opentype'),
+         url('Gotham-Book.woff') format('woff'),
+         url('Gotham-Book.ttf') format('truetype'),
+         url('Gotham-Book.svg#Gothambook') format('svg');
+    font-weight: normal; font-style: normal;
+}
+@font-face {
+    font-family:'ShorelinesBold';
+    src: url('ShorelinesScriptBold.eot');
+    src: url('ShorelinesScriptBoldd41d.eot?#iefix') format('embedded-opentype'),
+         url('ShorelinesScriptBold.woff') format('woff'),
+         url('ShorelinesScriptBold.ttf') format('truetype'),
+         url('ShorelinesScriptBold.svg#ShorelinesBold') format('svg');
+    font-weight: normal; font-style: normal;
+}
+@font-face {
+    font-family:'GloriaHallelujah';
+    src: url('GloriaHallelujah.eot');
+    src: url('GloriaHallelujahd41d.eot?#iefix') format('embedded-opentype'),
+         url('GloriaHallelujah.woff') format('woff'),
+         url('GloriaHallelujah.ttf') format('truetype'),
+         url('GloriaHallelujah.svg#GloriaHallelujah') format('svg');
+    font-weight: normal; font-style: normal;
+}
+@font-face {
+    font-family:'myriad-pro';
+    src: url('myriad-pro-webfont.eot');
+    src: url('myriad-pro-webfontd41d.eot?#iefix') format('embedded-opentype'),
+         url('myriad-pro-webfont.woff') format('woff'),
+         url('myriad-pro-webfont.ttf') format('truetype'),
+         url('myriad-pro-webfont.svg#myriad-pro') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family:'roboto';
+    src: url('Roboto-Regular.html');
+    src: url('Roboto-Regulard41d.html?#iefix') format('embedded-opentype'),
+         url('Roboto-Regular.woff') format('woff'),
+         url('Roboto-Regular.ttf') format('truetype'),
+         url('Roboto-Regular-2.html#raleway') format('svg');
+    font-weight: normal; font-style: normal;
+}

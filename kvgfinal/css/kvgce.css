@@ -104,55 +104,55 @@ body{
 /*** Images ***/
 /* Layout 1 */
 .grid--layout1 .grid__item:nth-child(1){
-  background: black url(/admin-kvgce/10.png) no-repeat center;
+  background: black url(/admin-kvgce/1.JPG) no-repeat center;
   background-size: 105%;
 }
 .grid--layout1 .grid__item:nth-child(2){
-  background: black url(/admin-kvgce/8.png) no-repeat center;
+  background: black url(/admin-kvgce/2.JPG) no-repeat center;
   background-size: 105%;
 }
 .grid--layout1 .grid__item:nth-child(3){
-  background: black url(/admin-kvgce/7.png) no-repeat center;
+  background: black url(/admin-kvgce/3.JPG) no-repeat center;
   background-size: 105%;
 }
 .grid--layout1 .grid__item:nth-child(4){
-  background: black url(/admin-kvgce/6.png) no-repeat center;
+  background: black url(/admin-kvgce/17.JPG) no-repeat center;
   background-size: 105%;
 }
 .grid--layout1 .grid__item:nth-child(5){
-  background: black url(/admin-kvgce/5.png) no-repeat center;
+  background: black url(/admin-kvgce/5.JPG) no-repeat center;
   background-size: 105%;
 }
 .grid--layout1 .grid__item:nth-child(6){
-  background: black url(/admin-kvgce/4.png) no-repeat center;
+  background: black url(/admin-kvgce/15.JPG) no-repeat center;
   background-size: 105%;
 }
 .grid--layout1 .grid__item:nth-child(7){
-  background: black url(/admin-kvgce/3.png) no-repeat center;
+  background: black url(/admin-kvgce/7.JPG) no-repeat center;
   background-size: 105%;
 }
 .grid--layout1 .grid__item:nth-child(8){
-  background: black url(/admin-kvgce/2.png) no-repeat center;
+  background: black url(/admin-kvgce/8.JPG) no-repeat center;
   background-size: 105%;
 }
 .grid--layout1 .grid__item:nth-child(9){
-  background: black url(/admin-kvgce/1.png) no-repeat center;
+  background: black url(/admin-kvgce/9.JPG) no-repeat center;
   background-size: 105%;
 }
 .grid--layout1 .grid__item:nth-child(10){
-  background: black url(/admin-kvgce/9.png) no-repeat center;
+  background: black url(/admin-kvgce/10.jpg) no-repeat center;
   background-size: 105%;
 }
 .grid--layout1 .grid__item:nth-child(11){
-  background: black url(/admin-kvgce/8.png) no-repeat center;
+  background: black url(/admin-kvgce/11.JPG) no-repeat center;
   background-size: 105%;
 }
 .grid--layout1 .grid__item:nth-child(12){
-  background: black url(/admin-kvgce/7.png) no-repeat center;
+  background: black url(/admin-kvgce/12.JPG) no-repeat center;
   background-size: 150%;
 }
 .grid--layout1 .grid__item:nth-child(13){
-  background: black url(/admin-kvgce/6.png) no-repeat center;
+  background: black url(/admin-kvgce/13.JPG) no-repeat center;
   background-size: 150%;
 }
 
@@ -166,15 +166,15 @@ body{
   background-size: 170%;
 }
 .grid--layout2 .grid__item:nth-child(3){
-  background: black url(/admin-kvgce/3.png) no-repeat center;
+  background: black url(/admin-kvgce/3.jpg) no-repeat center;
   background-size: 105%;
 }
 .grid--layout2 .grid__item:nth-child(4){
-  background: black url(/admin-kvgce/2.png) no-repeat center;
+  background: black url(/admin-kvgce/2.jpg) no-repeat center;
   background-size: 105%;
 }
 .grid--layout2 .grid__item:nth-child(5){
-  background: black url(/admin-kvgce/1.png) no-repeat center;
+  background: black url(/admin-kvgce/1.jpg) no-repeat center;
   background-size: 105%;
 }
 .grid--layout2 .grid__item:nth-child(6){

@@ -22,6 +22,146 @@
     <meta name="country" content="India">
     <meta name="robots" content="All">
     <meta name="robots" content="ODP (Default)">
+
+<style>
+
+
+@import url('https://pro.fontawesome.com/releases/v6.0.0-beta1/css/all.css');
+
+ul.ul-cards {
+    width: min(100%, 60rem);
+    margin-inline: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    list-style: none;
+    justify-content: center;
+}
+ul.ul-cards>li{
+    --bg-color: #F2F2F2;
+    --text-color: #333;
+    --padding: 1rem;
+    --circle-size: 5rem;
+    --circle-expand: 1rem;
+    --flap-height: 1.25rem;
+    --flap-offset: 0.5rem;
+    max-width: 15rem;
+    margin-top: calc(var(--circle-size) / 2 + var(--circle-expand));
+    margin-bottom: var(--flap-offset);
+    background-color: var(--bg-color);
+    background-image: linear-gradient(to bottom left, transparent 50%, rgba(0 0 0  / .125));
+    border-radius: var(--padding);
+    padding: var(--padding);
+
+    --bs-rim: inset -0.1rem 0.1rem 0.1rem rgb(255 255 255 / .5);
+    --bs-card-spread: 0.25rem;
+    --bs-card-color:  rgb(0 0 0 / 0.02);
+    --bs-card: 
+        -0.1rem 0.1rem var(--bs-card-spread) var(--bs-card-color),
+        -0.2rem 0.2rem var(--bs-card-spread) var(--bs-card-color),
+        -0.3rem 0.3rem var(--bs-card-spread) var(--bs-card-color),
+        -0.4rem 0.4rem var(--bs-card-spread) var(--bs-card-color),
+        -0.5rem 0.5rem var(--bs-card-spread) var(--bs-card-color),
+        -0.6rem 0.6rem var(--bs-card-spread) var(--bs-card-color),
+        -0.7rem 0.7rem var(--bs-card-spread) var(--bs-card-color),
+        -0.8rem 0.8rem var(--bs-card-spread) var(--bs-card-color),
+        -0.9rem 0.9rem var(--bs-card-spread) var(--bs-card-color),
+        -1.0rem 1.0rem var(--bs-card-spread) var(--bs-card-color),
+        -1.1rem 1.1rem var(--bs-card-spread) var(--bs-card-color),
+        -1.2rem 1.2rem var(--bs-card-spread) var(--bs-card-color),
+        -1.3rem 1.3rem var(--bs-card-spread) var(--bs-card-color),
+        -1.4rem 1.4rem var(--bs-card-spread) var(--bs-card-color),
+        -1.5rem 1.5rem var(--bs-card-spread) var(--bs-card-color),
+        -1.6rem 1.6rem var(--bs-card-spread) var(--bs-card-color),
+        -1.7rem 1.7rem var(--bs-card-spread) var(--bs-card-color),
+        -1.8rem 1.8rem var(--bs-card-spread) var(--bs-card-color),
+        -1.9rem 1.9rem var(--bs-card-spread) var(--bs-card-color);
+    box-shadow: var(--bs-rim), var(--bs-card);
+    display: grid;
+  grid-template-rows: max-content max-content auto ;
+    justify-items: center;
+    text-align: center;
+    gap: 0.75rem;
+    position: relative;
+}
+ul.ul-cards>li>.icon{
+    width: var(--circle-size);
+    margin-top: calc(var(--circle-size) / -2 - var(--padding));
+    aspect-ratio: 1;
+    background-color: var(--bg-color);
+    justify-self: center;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    box-shadow:var(--bs-rim), -0.1rem 0.1rem 0.25rem rgb(0 0 0 / .25);
+}
+ul.ul-cards>li>.icon>i{
+    font-size: calc(var(--circle-size) / 3);
+    color: var(--accent-color);
+}
+ul.ul-cards>li>.title{
+    margin-top: 0.5rem;
+    color: var(--accent-color);
+    font-weight: 700;
+}
+ul.ul-cards>li>.content{
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+    color: var(--text-color)
+}
+ul.ul-cards>li::before, ul>li::after{
+    content: "";
+    position: absolute;
+}
+ul.ul-cards>li::before{
+    top: calc(var(--circle-size) / -2 - var(--circle-expand));
+    width: calc(var(--circle-size) * 1 + var(--circle-expand) * 2);
+    height: calc(100% + var(--circle-size) / 2 + var(--padding) + var(--flap-offset)) ;
+    background-color: var(--accent-color);
+    background-image: linear-gradient( transparent 50%, rgb(0 0 0 / .25) 0);
+    border-top-left-radius: calc(var(--circle-size) / 2 + var(--circle-expand));
+    border-top-right-radius: calc(var(--circle-size) / 2 + var(--circle-expand));
+    clip-path: polygon(
+      0 0, 
+      100% 0, 
+      100% calc(100% - var(--flap-offset)), 
+      calc(100% - var(--flap-offset)) 100%, 
+      var(--flap-offset) 100%,  
+      0 calc(100% - var(--flap-offset))
+    );
+    z-index: -1;
+}
+ul.ul-cards>li::after{
+    width: calc(var(--circle-size) * 1 + var(--circle-expand) * 2 - var(--flap-offset) * 2);
+    height: var(--flap-height);
+    bottom: calc(var(--flap-offset) * -1);
+    border-top-left-radius: var(--flap-height);
+    border-top-right-radius: var(--flap-height);
+    background-color: var(--accent-color);
+}
+
+/*  */
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}   
+body {
+    min-height: 100vh;    
+    padding: 2rem;
+    background-color: #ECECEC;
+    font-family: sans-serif;
+}
+h1 { text-align: center; margin-bottom: 2rem}
+
+
+
+
+</style>
+
+
+
 <style>
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap");
 
@@ -756,329 +896,50 @@ body {
         </div>  -->
 
     </section>
-    <div class="container my-5">
-        <div class="row">
-          <div class="col-md-4 p-2">
-            <div class="p-4 border">
-              <div class="border-bottom mb-3 pb-3 px-2 d-flex justify-content-between">
-                <div class="d-flex align-items-center">
-                  <svg height="25px" class="mr-2" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-               viewBox="0 0 495 495" style="enable-background:new 0 0 495 495;" xml:space="preserve">
-            <g>
-              <path d="M495,103.513V95.5c0-21.78-17.72-39.5-39.5-39.5h-416C17.72,56,0,73.72,0,95.5v303.997c0,0.003,0,0.005,0,0.008
-                C0.003,421.283,17.722,439,39.5,439h416c21.78,0,39.5-17.72,39.5-39.5V103.521C495,103.518,495,103.516,495,103.513z M39.5,71h416
-                c13.509,0,24.5,10.99,24.5,24.5v4.883c-35.121,34.963-92.85,92.464-140.721,140.289l-75.162-75.162
-                c-9.162-9.162-24.071-9.162-33.233,0L15,381.393V95.5C15,81.99,25.991,71,39.5,71z M455.5,424h-416
-                c-12.519,0-22.868-9.439-24.319-21.574L241.49,176.117c3.314-3.314,8.706-3.314,12.021,0l75.158,75.158
-                C289.26,290.67,258.813,321.249,257.5,323c-2.485,3.313-1.814,8.015,1.5,10.5c1.349,1.012,2.928,1.5,4.494,1.5
-                c2.187,0,4.349-0.953,5.822-2.764C275.075,325.77,412.962,188.308,480,121.551V399.5C480,413.01,469.009,424,455.5,424z"/>
-              <path d="M103.5,199c21.78,0,39.5-17.72,39.5-39.5S125.28,120,103.5,120S64,137.72,64,159.5S81.72,199,103.5,199z M103.5,135
-                c13.509,0,24.5,10.99,24.5,24.5S117.009,184,103.5,184S79,173.01,79,159.5S89.991,135,103.5,135z"/>
-            </g>
-                  </svg>
-                  <a href="#" style="color: #9B5DE5; font-size: 16px;" class="text-capitalize font-weight-bold mb-0">Photography</a>
-                </div>
-                <a href="#" class="text-dark">See All</a>
-              </div>
-              <div class="mb-3">
-                <img class="w-100 mb-3" src="/admin-kvgce/photos/news/408/forest.png" alt="">
-                <div class="d-flex align-items-center">
-                  <svg height="10px" class="mr-1" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                    viewBox="0 0 300.988 300.988" style="enable-background:new 0 0 300.988 300.988;" xml:space="preserve">
-                  <g>
-                    <g>
-                      <path d="M150.494,0.001C67.511,0.001,0,67.512,0,150.495s67.511,150.493,150.494,150.493s150.494-67.511,150.494-150.493
-                        S233.476,0.001,150.494,0.001z M150.494,285.987C75.782,285.987,15,225.206,15,150.495S75.782,15.001,150.494,15.001
-                        s135.494,60.782,135.494,135.493S225.205,285.987,150.494,285.987z"/>
-                      <polygon points="142.994,142.995 83.148,142.995 83.148,157.995 157.994,157.995 157.994,43.883 142.994,43.883 		"/>
-                    </g>
-                  </svg>
-                  <small style="color: #9B5DE5;">6 min ago</small>
-                </div>
-                <a href="#" class="d-block text-dark my-1" style="font-size: 1.1rem; font-weight: 600;">The NSS unit celebrated World environmental day in college on 16-06-2022</a>
-                <small class="text-secondary">The NSS unit celebrated World environmental day in college on 16-06-2022, Thursday. The day was flagged off by a tree plantation in the college garden from the dignitaries.  Mr. Girish R, RFO Sullia Range has delivered a seminar on “Awareness on Ecology” and their subordinates Mr Chandru N and Mr. Venkatesh has given the information of job opportunities in department of forestry for an engineering students. Mr Girish R assured to distribute the plants for students and faculty of KVGCE from department of forest.</small>
-              </div>
-              <div class="d-flex align-items-start mb-3">
-                <img class="img-fluid mr-3" style="width: 110px;" src="/kvgfinal/admin-kvgce/photos/news/408/cricket.png" alt="">
-                <div>
-                  <div class="d-flex align-items-center">
-                    <svg height="10px" class="mr-1" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 300.988 300.988" style="enable-background:new 0 0 300.988 300.988;" xml:space="preserve">
-                    <g>
-                      <g>
-                        <path d="M150.494,0.001C67.511,0.001,0,67.512,0,150.495s67.511,150.493,150.494,150.493s150.494-67.511,150.494-150.493
-                          S233.476,0.001,150.494,0.001z M150.494,285.987C75.782,285.987,15,225.206,15,150.495S75.782,15.001,150.494,15.001
-                          s135.494,60.782,135.494,135.493S225.205,285.987,150.494,285.987z"></path>
-                        <polygon points="142.994,142.995 83.148,142.995 83.148,157.995 157.994,157.995 157.994,43.883 142.994,43.883 		"></polygon>
-                      </g>
-                    </g></svg>
-                    <small style="color: #9B5DE5;">6 min ago</small>
-                  </div>
-                  <small><a href="###" class="text-dark" style="font-weight: 600; line-height:1;">Karzai supports Abdullah’s stance on formation of HCNR</a></small>
-                </div>
-              </div>
-              <div class="d-flex align-items-start mb-3">
-                <img class="img-fluid mr-3" style="width: 110px;" src="https://cdn.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_220,h_150/https://8am.af/wp-content/uploads/2020/08/118327748_727213428129352_7910082187282163488_n-220x150.jpg" alt="">
-                <div>
-                  <div class="d-flex align-items-center">
-                    <svg height="10px" class="mr-1" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 300.988 300.988" style="enable-background:new 0 0 300.988 300.988;" xml:space="preserve">
-                    <g>
-                      <g>
-                        <path d="M150.494,0.001C67.511,0.001,0,67.512,0,150.495s67.511,150.493,150.494,150.493s150.494-67.511,150.494-150.493
-                          S233.476,0.001,150.494,0.001z M150.494,285.987C75.782,285.987,15,225.206,15,150.495S75.782,15.001,150.494,15.001
-                          s135.494,60.782,135.494,135.493S225.205,285.987,150.494,285.987z"></path>
-                        <polygon points="142.994,142.995 83.148,142.995 83.148,157.995 157.994,157.995 157.994,43.883 142.994,43.883 		"></polygon>
-                      </g>
-                    </g></svg>
-                    <small style="color: #9B5DE5;">6 min ago</small>
-                  </div>
-                  <small><a href="###" class="text-dark" style="font-weight: 600; line-height:1;">Karzai supports Abdullah’s stance on formation of HCNR</a></small>
-                </div>
-              </div>
-              <div class="d-flex align-items-start mb-3">
-                <img class="img-fluid mr-3" style="width: 110px;" src="https://cdn.shortpixel.ai/client/q_glossy,ret_img,w_600/https://8am.af/wp-content/uploads/2019/06/wezarat-dakhila-600x400.jpg" alt="">
-                <div>
-                  <div class="d-flex align-items-center">
-                    <svg height="10px" class="mr-1" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 300.988 300.988" style="enable-background:new 0 0 300.988 300.988;" xml:space="preserve">
-                    <g>
-                      <g>
-                        <path d="M150.494,0.001C67.511,0.001,0,67.512,0,150.495s67.511,150.493,150.494,150.493s150.494-67.511,150.494-150.493
-                          S233.476,0.001,150.494,0.001z M150.494,285.987C75.782,285.987,15,225.206,15,150.495S75.782,15.001,150.494,15.001
-                          s135.494,60.782,135.494,135.493S225.205,285.987,150.494,285.987z"></path>
-                        <polygon points="142.994,142.995 83.148,142.995 83.148,157.995 157.994,157.995 157.994,43.883 142.994,43.883 		"></polygon>
-                      </g>
-                    </g></svg>
-                    <small style="color: #9B5DE5;">6 min ago</small>
-                  </div>
-                  <small><a href="###" class="text-dark" style="font-weight: 600; line-height:1;">Karzai supports Abdullah’s stance on formation of HCNR</a></small>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 p-2">
-            <div class="p-4 border">
-              <div class="border-bottom mb-3 pb-3 px-2 d-flex justify-content-between">
-                <div class="d-flex align-items-center">
-                  <svg height="25px" class="mr-2" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-               viewBox="0 0 495 495" style="enable-background:new 0 0 495 495;" xml:space="preserve">
-            <g>
-              <path d="M495,103.513V95.5c0-21.78-17.72-39.5-39.5-39.5h-416C17.72,56,0,73.72,0,95.5v303.997c0,0.003,0,0.005,0,0.008
-                C0.003,421.283,17.722,439,39.5,439h416c21.78,0,39.5-17.72,39.5-39.5V103.521C495,103.518,495,103.516,495,103.513z M39.5,71h416
-                c13.509,0,24.5,10.99,24.5,24.5v4.883c-35.121,34.963-92.85,92.464-140.721,140.289l-75.162-75.162
-                c-9.162-9.162-24.071-9.162-33.233,0L15,381.393V95.5C15,81.99,25.991,71,39.5,71z M455.5,424h-416
-                c-12.519,0-22.868-9.439-24.319-21.574L241.49,176.117c3.314-3.314,8.706-3.314,12.021,0l75.158,75.158
-                C289.26,290.67,258.813,321.249,257.5,323c-2.485,3.313-1.814,8.015,1.5,10.5c1.349,1.012,2.928,1.5,4.494,1.5
-                c2.187,0,4.349-0.953,5.822-2.764C275.075,325.77,412.962,188.308,480,121.551V399.5C480,413.01,469.009,424,455.5,424z"/>
-              <path d="M103.5,199c21.78,0,39.5-17.72,39.5-39.5S125.28,120,103.5,120S64,137.72,64,159.5S81.72,199,103.5,199z M103.5,135
-                c13.509,0,24.5,10.99,24.5,24.5S117.009,184,103.5,184S79,173.01,79,159.5S89.991,135,103.5,135z"/>
-            </g>
-                  </svg>
-                  <a href="#" style="color: #9B5DE5; font-size: 16px;" class="text-capitalize font-weight-bold mb-0">Photography</a>
-                </div>
-                <a href="#" class="text-dark">See All</a>
-              </div>
-              <div class="mb-3">
-                <img class="w-100 mb-3" src="/admin-kvgce/photos/news/408/cricket.png" alt="">
-                <div class="d-flex align-items-center">
-                  <svg height="10px" class="mr-1" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                    viewBox="0 0 300.988 300.988" style="enable-background:new 0 0 300.988 300.988;" xml:space="preserve">
-                  <g>
-                    <g>
-                      <path d="M150.494,0.001C67.511,0.001,0,67.512,0,150.495s67.511,150.493,150.494,150.493s150.494-67.511,150.494-150.493
-                        S233.476,0.001,150.494,0.001z M150.494,285.987C75.782,285.987,15,225.206,15,150.495S75.782,15.001,150.494,15.001
-                        s135.494,60.782,135.494,135.493S225.205,285.987,150.494,285.987z"/>
-                      <polygon points="142.994,142.995 83.148,142.995 83.148,157.995 157.994,157.995 157.994,43.883 142.994,43.883 		"/>
-                    </g>
-                  </svg>
-                  <small style="color: #9B5DE5;">COLLEGE SPORTS MEET 2022</small>
-                </div>
-                <a href="#" class="d-block text-dark my-1" style="font-size: 1.1rem; font-weight: 600;">COLLEGE SPORTS MEET 2022</a>
-                <small class="text-secondary">Organized college athletic meet on 23-04-2022. Dr. Renuka Prasad K.V, General Secretary, AOLE(R)  inaugurated the athletic meet and Mr. Rajesh Bollaje, Alumni of our college and played VTU Kabaddi team was Chief Guest of the function. 
-                    Mr. Likhith K.P, 8th sem. Mechanical and Ms. Kavya D.K, 1st sem. MBA became the individual champion in Men and Women section respectively.
-                    </small>
-              </div>
-              <div class="d-flex align-items-start mb-3">
-                <img class="img-fluid mr-3" style="width: 110px;" src="admin-kvgce/photos/news/408/cricket.png" alt="">
-                <div>
-                  <div class="d-flex align-items-center">
-                    <svg height="10px" class="mr-1" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 300.988 300.988" style="enable-background:new 0 0 300.988 300.988;" xml:space="preserve">
-                    <g>
-                      <g>
-                        <path d="M150.494,0.001C67.511,0.001,0,67.512,0,150.495s67.511,150.493,150.494,150.493s150.494-67.511,150.494-150.493
-                          S233.476,0.001,150.494,0.001z M150.494,285.987C75.782,285.987,15,225.206,15,150.495S75.782,15.001,150.494,15.001
-                          s135.494,60.782,135.494,135.493S225.205,285.987,150.494,285.987z"></path>
-                        <polygon points="142.994,142.995 83.148,142.995 83.148,157.995 157.994,157.995 157.994,43.883 142.994,43.883 		"></polygon>
-                      </g>
-                    </g></svg>
-                    <small style="color: #9B5DE5;">6 min ago</small>
-                  </div>
-                  <small><a href="###" class="text-dark" style="font-weight: 600; line-height:1;">Karzai supports Abdullah’s stance on formation of HCNR</a></small>
-                </div>
-              </div>
-              <div class="d-flex align-items-start mb-3">
-                <img class="img-fluid mr-3" style="width: 110px;" src="admin-kvgce/photos/news/408/cricket.png" alt="">
-                <div>
-                  <div class="d-flex align-items-center">
-                    <svg height="10px" class="mr-1" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 300.988 300.988" style="enable-background:new 0 0 300.988 300.988;" xml:space="preserve">
-                    <g>
-                      <g>
-                        <path d="M150.494,0.001C67.511,0.001,0,67.512,0,150.495s67.511,150.493,150.494,150.493s150.494-67.511,150.494-150.493
-                          S233.476,0.001,150.494,0.001z M150.494,285.987C75.782,285.987,15,225.206,15,150.495S75.782,15.001,150.494,15.001
-                          s135.494,60.782,135.494,135.493S225.205,285.987,150.494,285.987z"></path>
-                        <polygon points="142.994,142.995 83.148,142.995 83.148,157.995 157.994,157.995 157.994,43.883 142.994,43.883 		"></polygon>
-                      </g>
-                    </g></svg>
-                    <small style="color: #9B5DE5;">6 min ago</small>
-                  </div>
-                  <small><a href="###" class="text-dark" style="font-weight: 600; line-height:1;">Karzai supports Abdullah’s stance on formation of HCNR</a></small>
-                </div>
-              </div>
-              <div class="d-flex align-items-start mb-3">
-                <img class="img-fluid mr-3" style="width: 110px;" src="https://cdn.shortpixel.ai/client/q_glossy,ret_img,w_600/https://8am.af/wp-content/uploads/2019/06/wezarat-dakhila-600x400.jpg" alt="">
-                <div>
-                  <div class="d-flex align-items-center">
-                    <svg height="10px" class="mr-1" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 300.988 300.988" style="enable-background:new 0 0 300.988 300.988;" xml:space="preserve">
-                    <g>
-                      <g>
-                        <path d="M150.494,0.001C67.511,0.001,0,67.512,0,150.495s67.511,150.493,150.494,150.493s150.494-67.511,150.494-150.493
-                          S233.476,0.001,150.494,0.001z M150.494,285.987C75.782,285.987,15,225.206,15,150.495S75.782,15.001,150.494,15.001
-                          s135.494,60.782,135.494,135.493S225.205,285.987,150.494,285.987z"></path>
-                        <polygon points="142.994,142.995 83.148,142.995 83.148,157.995 157.994,157.995 157.994,43.883 142.994,43.883 		"></polygon>
-                      </g>
-                    </g></svg>
-                    <small style="color: #9B5DE5;">6 min ago</small>
-                  </div>
-                  <small><a href="###" class="text-dark" style="font-weight: 600; line-height:1;">Karzai supports Abdullah’s stance on formation of HCNR</a></small>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 p-2">
-            <div class="p-4 border">
-              <div class="border-bottom mb-3 pb-3 px-2 d-flex justify-content-between">
-                <div class="d-flex align-items-center">
-                  <svg height="25px" class="mr-2" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-               viewBox="0 0 495 495" style="enable-background:new 0 0 495 495;" xml:space="preserve">
-            <g>
-              <path d="M495,103.513V95.5c0-21.78-17.72-39.5-39.5-39.5h-416C17.72,56,0,73.72,0,95.5v303.997c0,0.003,0,0.005,0,0.008
-                C0.003,421.283,17.722,439,39.5,439h416c21.78,0,39.5-17.72,39.5-39.5V103.521C495,103.518,495,103.516,495,103.513z M39.5,71h416
-                c13.509,0,24.5,10.99,24.5,24.5v4.883c-35.121,34.963-92.85,92.464-140.721,140.289l-75.162-75.162
-                c-9.162-9.162-24.071-9.162-33.233,0L15,381.393V95.5C15,81.99,25.991,71,39.5,71z M455.5,424h-416
-                c-12.519,0-22.868-9.439-24.319-21.574L241.49,176.117c3.314-3.314,8.706-3.314,12.021,0l75.158,75.158
-                C289.26,290.67,258.813,321.249,257.5,323c-2.485,3.313-1.814,8.015,1.5,10.5c1.349,1.012,2.928,1.5,4.494,1.5
-                c2.187,0,4.349-0.953,5.822-2.764C275.075,325.77,412.962,188.308,480,121.551V399.5C480,413.01,469.009,424,455.5,424z"/>
-              <path d="M103.5,199c21.78,0,39.5-17.72,39.5-39.5S125.28,120,103.5,120S64,137.72,64,159.5S81.72,199,103.5,199z M103.5,135
-                c13.509,0,24.5,10.99,24.5,24.5S117.009,184,103.5,184S79,173.01,79,159.5S89.991,135,103.5,135z"/>
-            </g>
-                  </svg>
-                  <a href="#" style="color: #9B5DE5; font-size: 16px;" class="text-capitalize font-weight-bold mb-0">Photography</a>
-                </div>
-                <a href="#" class="text-dark">See All</a>
-              </div>
-              <div class="mb-3">
-                <img class="w-100 mb-3" src="/admin-kvgce/photos/news/408/cricket.png" alt="">
-                <div class="d-flex align-items-center">
-                  <svg height="10px" class="mr-1" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                    viewBox="0 0 300.988 300.988" style="enable-background:new 0 0 300.988 300.988;" xml:space="preserve">
-                  <g>
-                    <g>
-                      <path d="M150.494,0.001C67.511,0.001,0,67.512,0,150.495s67.511,150.493,150.494,150.493s150.494-67.511,150.494-150.493
-                        S233.476,0.001,150.494,0.001z M150.494,285.987C75.782,285.987,15,225.206,15,150.495S75.782,15.001,150.494,15.001
-                        s135.494,60.782,135.494,135.493S225.205,285.987,150.494,285.987z"/>
-                      <polygon points="142.994,142.995 83.148,142.995 83.148,157.995 157.994,157.995 157.994,43.883 142.994,43.883 		"/>
-                    </g>
-                  </svg>
-                  <small style="color: #9B5DE5;">6 min ago</small>
-                </div>
-                <a href="#" class="d-block text-dark my-1" style="font-size: 1.1rem; font-weight: 600;">Travail, hope & resistance: Nargis Taraki’s story</a>
-                <small class="text-secondary">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat, excepturi.</small>
-              </div>
-              <div class="d-flex align-items-start mb-3">
-                <img class="img-fluid mr-3" style="width: 110px;" src="https://cdn.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_220,h_150/https://8am.af/wp-content/uploads/2020/08/EgmZsngWAAIog-f-220x150.jpg" alt="">
-                <div>
-                  <div class="d-flex align-items-center">
-                    <svg height="10px" class="mr-1" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 300.988 300.988" style="enable-background:new 0 0 300.988 300.988;" xml:space="preserve">
-                    <g>
-                      <g>
-                        <path d="M150.494,0.001C67.511,0.001,0,67.512,0,150.495s67.511,150.493,150.494,150.493s150.494-67.511,150.494-150.493
-                          S233.476,0.001,150.494,0.001z M150.494,285.987C75.782,285.987,15,225.206,15,150.495S75.782,15.001,150.494,15.001
-                          s135.494,60.782,135.494,135.493S225.205,285.987,150.494,285.987z"></path>
-                        <polygon points="142.994,142.995 83.148,142.995 83.148,157.995 157.994,157.995 157.994,43.883 142.994,43.883 		"></polygon>
-                      </g>
-                    </g></svg>
-                    <small style="color: #9B5DE5;">6 min ago</small>
-                  </div>
-                  <small><a href="###" class="text-dark" style="font-weight: 600; line-height:1;">Karzai supports Abdullah’s stance on formation of HCNR</a></small>
-                </div>
-              </div>
-              <div class="d-flex align-items-start mb-3">
-                <img class="img-fluid mr-3" style="width: 110px;" src="https://cdn.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_220,h_150/https://8am.af/wp-content/uploads/2020/08/118327748_727213428129352_7910082187282163488_n-220x150.jpg" alt="">
-                <div>
-                  <div class="d-flex align-items-center">
-                    <svg height="10px" class="mr-1" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 300.988 300.988" style="enable-background:new 0 0 300.988 300.988;" xml:space="preserve">
-                    <g>
-                      <g>
-                        <path d="M150.494,0.001C67.511,0.001,0,67.512,0,150.495s67.511,150.493,150.494,150.493s150.494-67.511,150.494-150.493
-                          S233.476,0.001,150.494,0.001z M150.494,285.987C75.782,285.987,15,225.206,15,150.495S75.782,15.001,150.494,15.001
-                          s135.494,60.782,135.494,135.493S225.205,285.987,150.494,285.987z"></path>
-                        <polygon points="142.994,142.995 83.148,142.995 83.148,157.995 157.994,157.995 157.994,43.883 142.994,43.883 		"></polygon>
-                      </g>
-                    </g></svg>
-                    <small style="color: #9B5DE5;">6 min ago</small>
-                  </div>
-                  <small><a href="###" class="text-dark" style="font-weight: 600; line-height:1;">Karzai supports Abdullah’s stance on formation of HCNR</a></small>
-                </div>
-              </div>
-              <div class="d-flex align-items-start mb-3">
-                <img class="img-fluid mr-3" style="width: 110px;" src="https://cdn.shortpixel.ai/client/q_glossy,ret_img,w_600/https://8am.af/wp-content/uploads/2019/06/wezarat-dakhila-600x400.jpg" alt="">
-                <div>
-                  <div class="d-flex align-items-center">
-                    <svg height="10px" class="mr-1" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 300.988 300.988" style="enable-background:new 0 0 300.988 300.988;" xml:space="preserve">
-                    <g>
-                      <g>
-                        <path d="M150.494,0.001C67.511,0.001,0,67.512,0,150.495s67.511,150.493,150.494,150.493s150.494-67.511,150.494-150.493
-                          S233.476,0.001,150.494,0.001z M150.494,285.987C75.782,285.987,15,225.206,15,150.495S75.782,15.001,150.494,15.001
-                          s135.494,60.782,135.494,135.493S225.205,285.987,150.494,285.987z"></path>
-                        <polygon points="142.994,142.995 83.148,142.995 83.148,157.995 157.994,157.995 157.994,43.883 142.994,43.883 		"></polygon>
-                      </g>
-                    </g></svg>
-                    <small style="color: #9B5DE5;">6 min ago</small>
-                  </div>
-                  <small><a href="###" class="text-dark" style="font-weight: 600; line-height:1;">Karzai supports Abdullah’s stance on formation of HCNR</a></small>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-      </div>
-    <section class="home-academics-bg">
-        <div class="container">
-            <h2 class="head">Academics <span></span></h2>
-            <ul class="nav nav-tabs responsive">
-                <li><a href="">Bachelor of Engineering</a></li>
-                <li><a href="">Post Graduate</a></li>
+    
 
-            </ul>
-            <div class="tab-content responsive">
 
-                <div class="tab-pane active" id="academics-phd">
-                    <div class="row">
-                        <div class="home-academics-box col-md-3">
-                            <a href="#nogo">Computer Science & Engg</a>
-                        </div>
-                        <div class="home-academics-box col-md-3">
-                            <a href="#nogo">Electronics and Communication Engg</a>
-                        </div>
-                        <div class="home-academics-box col-md-3">
-                            <a href="#nogo"> Civil Engg</a>
-                        </div>
-                        <div class="home-academics-box col-md-3">
-                            <a href="#nogo">Mechanical Engg</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-    </section>
+      <section>
+        <!-- inspired by https://adobe.ly/3KSkgPx -->
+        <h1>Pooja timings</h1>
+        <center><h2>   Morning 7.30 to 9am   Night 6.30PM to 7.30PM</h2></center><br>
+        <ul class="ul-cards">
+          <li style="--accent-color: #68AFFF">
+            <div class="icon"><i class="fa-solid fa-desktop"></i></div>
+            <div class="title"> ಕ್ಷೀರಾಭಿಷೇಕ</div>
+            <div class="content">ಕ್ಷೀರಾಭಿಷೇಕ ಆದಿನಾಥ ಸ್ವಾಮಿ ಪಾರ್ಶ್ವನಾಥ ಸ್ವಾಮಿ</div>
+          </li>
+          <li style="--accent-color: #FFA44B">
+            <div class="icon"><i class="fa-solid fa-leaf"></i></div>
+            <div class="title">&nbsp;&nbsp;&nbsp;&nbsp;ಸರಸ್ವತಿ ಪೂಜೆ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+            <div class="content">ಸರಸ್ವತಿ ಪೂಜೆ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </div>
+          </li>
+          <li style="--accent-color: #EF6968">
+            <div class="icon"><i class="fa-solid fa-home"></i></div>
+            <div class="title">ಬ್ರಹ್ಮ ಯಕ್ಷ ಪೂಜೆ &nbsp;&nbsp;</div>
+            <div class="content">ಬ್ರಹ್ಮ ಯಕ್ಷ ಪೂಜೆ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  </div>
+          </li>
+          <li style="--accent-color: #0ED2D1">
+            <div class="icon"><i class="fa-solid fa-crown"></i></div>
+            <div class="title">ಪದ್ಮಾವತಿ ಅಮ್ಮ ಪೂಜೆ</div>
+            <div class="content">ಪದ್ಮಾವತಿ ಅಮ್ಮ ಪೂಜೆ</div>
+          </li>
+          <li style="--accent-color: #c66fa7">
+            <div class="icon"><i class="fa-solid fa-bell"></i></div>
+            <div class="title">ಕ್ಷೇತ್ರಪಾಲ ಪೂಜೆ</div>
+            <div class="content">ಕ್ಷೇತ್ರಪಾಲ ಪೂಜೆ</div>
+          </li>
+          <li style="--accent-color: #ccb033">
+            <div class="icon"><i class="fa-brands fa-dharmachakra"></i></div>
+            <div class="title">&nbsp;&nbsp;ನಾಗಪೂಜೆ&nbsp;&nbsp;</div>
+            <div class="content">&nbsp;&nbsp;ನಾಗಪೂಜೆ&nbsp;&nbsp;</div>
+          </li>
+          
+        </ul>
+           <br>
+        </section> 
+
+   
     <div class="message hidden">
         <div class="msg-text">
             <span>View on desktop for <br /> full grid effect</span>

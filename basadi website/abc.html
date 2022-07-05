@@ -1,0 +1,54 @@
+<!--
+slider
+  arrows: Muestra flechas de los lados para desplazarse.
+    Solo funciona poniendo true en minusculas.
+
+  selec: Muestra selectores de abajo para el desplazamiento.
+    Solo funciona poniendo true en minusculas.
+
+  autoplay: Agrega un desplazamiento automatico cada X segundos.
+    Cuando pones el raton encima del slider este para la reproduccion automatica y se vuelve a retomar cuando sacas el raton.
+    Solo funciona poniendo un numero mayor que 0.
+
+content
+  Funciona como un div, como se puede ver en el ejemplo puedes añadirle un style, class o ID personalizado. O incluso agregar texto entre las etiquetas.
+-->
+<html>
+    <head>
+        <link rel="stylesheet" href="/assets/css/slider1.css">
+        <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+    </head>
+    <body>
+        <div id="slider">  
+            <div class="slide" style="background:dodgerBlue;">
+              <img src="https://img.fotocommunity.com/peacefull-95e65145-d050-4957-9ddc-85dd60689d45.jpg?height=500" >
+            </div>
+            
+            <div class="slide" style="background:coral;">
+               <img src="https://render.fineartamerica.com/images/images-profile-flow/400/images/artworkimages/mediumlarge/2/sunset-storm-haystack-rock-canon-beach-oregon-coast-tl-mair.jpg" >
+            </div>
+           
+            <div class="slide" style="background:crimson;">
+              <img src=" https://render.fineartamerica.com/images/images-profile-flow/400/images-medium-large-5/1-tourists-at-eiffel-tower-paris-panoramic-images.jpg" >
+            </div>
+            
+            <div class="slide" style="background: #6edf10;">
+              <img src="https://dmasia.travel/wp-content/uploads/2019/09/vit3-1000x350.jpg" >
+            </div>
+            
+            <!--Controlling arrows-->
+            <span class="controls" onclick="prevSlide(-1)" ><i style="font-size: 48px;"   class="fas fa-angle-double-right" ></i>
+          </span>
+            <span class="controls" id="right-arrow" onclick="nextSlide(1)"><i class="fa fa-arrow-right" aria-hidden="true"></i>
+          </span>
+          </div>
+            <div id="dots-con">
+           <span class="dot" onclick="prevSlide(-1)"></span><span class="dot" onclick="prevSlide(-1)"></span><span class="dot" onclick="prevSlide(1)"></span><span class="dot" onclick="nextSlide(1)"></span>
+           </div>
+          
+
+
+<script src="/js/banner1.js"></script>
+</body>
+  </html>

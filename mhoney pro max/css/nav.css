@@ -9,7 +9,7 @@ a {
 
 .navbar-container {
 	text-align: center;
-	background-color: #009688;
+	background-color: #ffd700;
 	box-shadow: 0px -20px 5px 20px #333333;
 	padding: 10px;
 	font-size: 0;
@@ -29,7 +29,7 @@ a {
 }
 
 .navbar-container ul li a {
-	color: #ffffff;
+	color: #000000;
 	text-decoration: none;
 	display: inline-block;	
 	padding: 10px;
@@ -46,11 +46,11 @@ a {
 
 .navbar-container ul li.active-link .underline {
 	width: 100%;
-	background-color: white;
+	background-color: rgb(0, 0, 0);
 }
 
 .navbar-container ul li:hover .underline {
-	background-color: white;
+	background-color: rgb(0, 0, 0);
 	width: 100%;
 }
 
@@ -59,10 +59,10 @@ a {
 
 .navbar-container ul li:active a {
 	transition: none;
-	color: rgba(255,255,255,0.76);
+	color: rgba(0, 0, 0, 0.76);
 }
 
 .navbar-container ul li:active .underline {
 	transition: none;
-	background-color: rgba(255,255,255,0.76);
+	background-color: rgba(0, 0, 0, 0.76);
 }

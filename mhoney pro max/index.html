@@ -11,25 +11,292 @@
   <div class="navbar-container">
     <ul>
       <li class="nav-link active-link">
-        <a href="#">Home
+        <a href="#"><strong>Home</strong> 
         </a>
         <div class="underline"></div>
       </li>
       <li class="nav-link">
-        <a href="#about">About Us</a>
+        <a href="#about"><strong>About Us</strong> </a>
         <div class="underline"></div>
       </li>
       <li class="nav-link">
-        <a href="#">Testimonials</a>
+        <a href="#"><strong>Testimonials</strong> </a>
         <div class="underline"></div>
       </li>
       <li class="nav-link">
-        <a href="#">Contact</a>
+        <a href="#"><strong>Contact</strong> </a>
         <div class="underline"></div>
       </li>
     </ul>
   </div>
   <div ></div>
+
+
+
+
+  <!-- slide -->
+  <style>
+    * {
+        box-sizing: border-box
+    }
+
+    /* body {font-family: Verdana, sans-serif; margin:0} */
+    .mySlides {
+        display: none
+    }
+
+    img {
+        vertical-align: middle;
+    }
+
+    /* Slideshow container */
+    .slideshow-container {
+        max-width: 100%;
+        position: relative;
+        margin: auto;
+    }
+
+    /* Next & previous buttons */
+    .prev,
+    .next {
+        cursor: pointer;
+        position: absolute;
+        top: 30%;
+        width: auto;
+        padding: 16px;
+        margin-top: -22px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        /* transition: 0.6s ease; */
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+    }
+
+    /* Position the "next button" to the right */
+    .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+    }
+
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover,
+    .next:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+
+    /* Caption text */
+    .text {
+        color: #f2f2f2;
+        font-size: 15px;
+        padding: 8px 12px;
+        position: absolute;
+        bottom: 8px;
+        width: 100%;
+        text-align: center;
+    }
+
+    /* Number text (1/3 etc) */
+    .numbertext {
+        color: #f2f2f2;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+    }
+
+    /* The dots/bullets/indicators */
+    .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        /* transition: background-color 0.6s ease; */
+    }
+
+    .active,
+    .dot:hover {
+        background-color: #717171;
+    }
+
+    /* Fading animation */
+    .fade {
+        animation-name: fade;
+        animation-duration: 5s;
+    }
+
+    @keyframes fade {
+        from {
+            opacity: 1
+        }
+
+        to {
+            opacity: 1
+        }
+    }
+
+    /* On smaller screens, decrease text size */
+    @media only screen and (max-width: 300px) {
+
+        .prev,
+        .next,
+        .text {
+            font-size: 11px
+        }
+    }
+</style>
+
+
+
+<div class="slideshow-container">
+
+    <div class="mySlides">
+
+        <img src="assets/images/Banner/banner4.jpg" style="width:100%">
+        <style>
+            h1 {
+                font-size: 30px;
+            }
+
+            @media screen and (min-width:761px) {
+
+                /* body {
+background-color:white;
+} */
+                h1 {
+                    color: red;
+                }
+            }
+
+            @media screen and (max-width:760px) {
+
+                /* body {
+background-color: #333;
+} */
+                h1 {
+                    color: red;
+                }
+
+                /* p {
+color: white;
+} */
+            }
+
+            @media screen and (max-width:480px) {
+
+                /* body {
+background-color: #807f83;
+} */
+                h1 {
+                    color: white;
+                }
+
+                /* p {
+color: white;
+} */
+            }
+
+            @media screen and (max-width:360px) {
+
+                /* body {
+background-color: #0096d6;
+} */
+                h1 {
+                    color: white;
+                    font-size: 10px;
+                }
+
+                /* p {
+color: white;
+} */
+            }
+        </style>
+        <div class="text "
+            style="background-color: #ddd; width: fit-content; align-self:center; padding: 6px; border-radius: 10px; opacity: 70%; margin-left: 30%;margin-right: 30%;">
+            <h1 style="color: #111110; opacity: 100%;"><b>SHRI ADEESHWARA SWAMI BASADI</b></h1>
+        </div>
+    </div>
+
+    <div class="mySlides">
+
+        <img src="assets/images/Banner/banner10.jpg" style="width:100%">
+        <div class="text"> </div>
+    </div>
+
+
+    <div class="mySlides">
+
+        <img src="assets/images/Banner/banner9.jpg" style="width:100%">
+        <div class="text"></div>
+    </div>
+
+
+    <div class="mySlides">
+
+        <img src="assets/images/Banner/banner2.jpg" style="width:100%">
+        <div class="text"></div>
+    </div>
+
+    <div class="mySlides">
+
+        <img src="assets/images/Banner/banner3.jpg" style="width:100%">
+        <div class="text"></div>
+    </div>
+
+    <div class="mySlides">
+
+        <img src="assets/images/Banner/banner11.jpg" style="width:100%">
+        <div class="text"></div>
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+    <span class="dot" onclick="currentSlide(5)"></span>
+    <span class="dot" onclick="currentSlide(6)"></span>
+</div>
+
+<script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+        showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+        showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("dot");
+        if (n > slides.length) { slideIndex = 1 }
+        if (n < 1) { slideIndex = slides.length }
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+    }
+</script>
+
+  <!-- endslide -->
 </body>
 <script src="script/nav.js"></script>
 </html>

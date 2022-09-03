@@ -1,0 +1,7 @@
+<<<<<<< HEAD
+hello
+ajwehdfa8whfIWEJFO;lwef
+=======
+hellojkilhj
+world
+>>>>>>> 5e9e02d0040e860eb1ed375a194d7a6fc42ac9d4

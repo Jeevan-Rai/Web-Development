@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- Mirrored from www.sjec.ac.in/index.php by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 27 Apr 2022 12:11:43 GMT -->
-<!-- Added by HTTrack -->
-<meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 
 <head>
     <meta charset="utf-8">
@@ -100,10 +97,10 @@ body {
                                         <h4>Management</h4>
                                     </div>
                                     <ul class="mdf_child_menu">
-                                        <li><a href="">Founder President</a></li>
-                                        <li><a href="">General Secretary</a></li>
-                                        <li><a href="">CEO</a></li>
-                                        <li><a href="">Principal</a></li>
+                                        <li><a href="aboutus.html#president">Founder President</a></li>
+                                        <li><a href="aboutus.html#secretary">General Secretary</a></li>
+                                        <li><a href="aboutus.html#ceo">CEO</a></li>
+                                        <li><a href="aboutus.html#princi">Principal</a></li>
                                     
                                         <li><a href="">Governing Council</a></li>
                                        
@@ -149,17 +146,72 @@ body {
 
                             </div>
                         </li>
-
                         <li class="menu-el">
-                            <a>ADMISSIONS</a>
+                            <a>Academics</a>
                             <div class="mdf_sub_wrap row mdf_fall">
                                 <div class="col-sm-4 col-xs-12">
                                     <div class="cl-title">
                                         <h4>Undergraduate</h4>
                                     </div>
+                                    <ul class="mdf_child_menu">
+                                        <ul>
+                                            <!-- <li><a href="department-cse-artificial-intelligence-ml.html">Artificial
+                                                Intelligence & Machine Learning</a></li> -->
+                                            <li><a href="department-computer-science.html">Computer Science Engineering</a></li>
+                                                    <li><a href="">Computer Science Engineering (AI &  ML) </a></li>
+                                            <li><a href="department-ECE.html">
+                                                    Electronics &amp; Communication Engineering</a></li>
+                                            <li><a href="department-civil.html">
+                                                    Civil Engineering</a></li>
+                                            <li><a href="department-mech.html">Mechanical
+                                                    Engineering</a></li>
+                                            <!--<li><a href="department-information-science.php">Information Science &amp; Engineering</a></li>-->
+
+
+                                        </ul>
+                                        <ul class="mdf_child_menu">
+                                            <div class="cl-title">
+                                                <h4>Postgraduate</h4>
+                                            </div>
+                                            <li><a href="">M.Tech</a></li>
+                                            <li><a href="">M.B.A</a></li>
+                                           
+    
+                                        </ul>
+                                    </ul>
+                                </div>
+                                <div class="col-sm-4 col-xs-12">
+                                    <div class="cl-title">
+                                        <h4>Basic Science</h4>
+                                    </div>
+                                    <ul class="mdf_child_menu">
+                                        
+                                        <li><a href="">Mathematics</a></li>
+                                        <li><a href="">Physics</a></li>
+                                        <li><a href="">Chemistry</a></li>
+
+                                    </ul>
+                                    <ul class="mdf_child_menu">
+                                        <li><a href="">R & D </a></li>
+                                        <li><a href="">IQAC</a></li>
+                                        <li><a href="">Calender of Events</a></li>
+                                    </ul>
+                                    
+                                </div>
+                               
+
+
+                            </div>
+                        </li>
+                        <li class="menu-el">
+                            <a>ADMISSIONS</a>
+                            <div class="mdf_sub_wrap row mdf_fall">
+                                <div class="col-sm-4 col-xs-12">
+                                    <!-- <div class="cl-title">
+                                        <h4></h4>
+                                    </div> -->
                                     <ul class="mdf_child_menu" style="display: block; left: 108px;">
-                                        <li><a href=""><strong>Computer Science &
-                                                    Engineering</strong></a></li>
+                                        <li><a href=""><strong>Admissioin Procedure</strong></a></li>
                                         <!-- <li><a href="">BE in Computer Science &
                                                 Engineering</a></li>
                                         <li><a href="">BE in Computer Science &
@@ -167,16 +219,14 @@ body {
 
                                         <!-- <li><a href="admission-bachelor-engineering.html"><strong>Artificial
                                                 Intelligence & Machine Learning</strong></a></li> -->
-                                        <li><a href=""><strong>Mechanical
-                                                    Engineering</strong></a></li>
-                                        <li><a href=""><strong>Electronics &
-                                                    Communication Engineering</strong></a></li>
+                                        <li><a href=""><strong>Apply Online</strong></a></li>
+                                        <li><a href=""><strong>Application Form</strong></a></li>
                                         <!-- <li><a href=""><strong>Electrical &
                                                 Electronics Engineering</strong></a></li> -->
-                                        <li><a href=""><strong>Civil Engineering
+                                        <li><a href=""><strong>Scholarship
                                                 </strong></a></li>
 
-                                        <!--<li><a  href="admission-power-electronic.php">Power Electronics</a></li>-->
+                                        <li><a  href=""><strong>Who can Apply</strong></a></li>
 
 
                                         <!-- <li><a  href="admission-computer-science.php">Computer Science & Engg</a></li>
@@ -223,206 +273,12 @@ body {
                             </div>
                         </li>
 
+                      
+                       
+
                         <li class="menu-el">
-                            <a>Academics</a>
-                            <div class="mdf_sub_wrap row mdf_fall">
-                                <div class="col-sm-4 col-xs-12">
-                                    <ul class="mdf_child_menu">
-                                        <ul>
-                                            <!-- <li><a href="department-cse-artificial-intelligence-ml.html">Artificial
-                                                Intelligence & Machine Learning</a></li> -->
-                                            <li><a href="department-computer-science.html">Computer Science &amp;
-                                                    Engineering</a></li>
-                                            <li><a href="">
-                                                    Electronics &amp; Communication Engineering</a></li>
-                                            <li><a href="">
-                                                    Civil Engineering</a></li>
-                                            <li><a href="">Mechanical
-                                                    Engineering</a></li>
-                                            <!--<li><a href="department-information-science.php">Information Science &amp; Engineering</a></li>-->
-
-
-                                        </ul>
-                                    </ul>
-                                </div>
-                                <div class="col-sm-4 col-xs-12">
-                                    <ul class="mdf_child_menu">
-                                        <li><a href="">Civil Engineering</a></li>
-                                        <li><a href="">Mathematics</a></li>
-                                        <li><a href="">Physics</a></li>
-                                        <li><a href="">Chemistry</a></li>
-
-                                    </ul>
-                                </div>
-                                <div class="col-sm-4 col-xs-12">
-                                    <ul class="mdf_child_menu">
-                                        <!-- <li><a href="">Business Administration</a></li>
-                                    <li><a href="">Computer
-                                            Applications</a></li>
-                                    <li><a href="department-Bsc-honour.html">B.Sc. Honours</a></li> -->
-                                        <!--<li><a href="department-humanities.php">Humanities</a></li>	-->
-                                    </ul>
-                                </div>
-
-
-                            </div>
-                        </li>
-                        <li class="menu-el">
-                            <a href="#">Research</a>
+                            <a href="placement.html">Placement</a>
                             <!-- <div class="mdf_sub_wrap row mdf_fall">
-                                <div class="col-sm-3 col-xs-12">
-                                    <ul class="mdf_child_menu"> -->
-                            <!-- <li><a href="associations-sigmaths.html">SIGMATHS</a></li>
-                                    <li><a href="associastion-aicuf.html">AICUF</a></li>
-                                    <li><a href="associations-eels.html">EELS</a></li> -->
-                            <!-- <li><a href="">Entrepreneurship Dev. Cell</a>
-                                        </li> -->
-                            <!-- <li><a href="#">Gavel Club</a></li> -->
-                            <!-- <li><a href="associations-epsilon.html">Epsilon</a></li> -->
-                            <!-- <li><a href="https://aicteidealab.sjecblogs.in/" target="blank"> AICTE-SJEC Idea -->
-                            <!-- Lab</a></li> -->
-                            <!-- </ul>
-                                </div>
-                                <div class="col-sm-3 col-xs-12">
-                                    <ul class="mdf_child_menu"> -->
-                            <!-- <li><a href="associations-cipher.html">Cipher</a></li> -->
-                            <!-- <li><a href="associations-nss-redcross.html">NSS & Youth Red Cross</a></li> -->
-                            <!-- <li><a href="associations-genesis.html">Genesis</a></li> -->
-                            <!-- <li><a href="">Infosys Campus
-                                                Connect</a></li> -->
-                            <!-- <li><a href="http://tiara.sjec.ac.in/" target="_blank">Tiara</a></li>
-                                    <li><a href="associations-sjec-arc.html">ARC-SJEC</a></li> -->
-                            <!-- 
-                                    </ul>
-                                </div>
-                                <div class="col-sm-3 col-xs-12">
-                                    <ul class="mdf_child_menu"> -->
-                            <!-- <li><a href="associations-iste.html">ISTE</a></li>
-                                    <li><a href="associations-ieee.html">IEEE</a></li>
-                                    <li><a href="associations-prodigi.html">Prodigi</a></li>
-                                    <li><a href="associations-torque.html">Torque</a></li> -->
-                            <!--<li><a href="associations-intaglio.php">INTAGLIO</a></li>-->
-                            <!-- <li><a href="associations-technocrats.html">Technocrats</a></li>
-                                    <li><a href="associations-festo-centre.html">Festo Centre for Industrial
-                                            Automation</a></li> -->
-                            <!-- 
-                                    </ul>
-                                </div>
-                                <div class="col-sm-3 col-xs-12">
-                                    <ul class="mdf_child_menu"> -->
-                            <!-- <li><a href="associations-nirman.html">NIRMAN</a></li>
-                                    <li><a href="associations-jagruti.html">Jagruti</a></li>
-                                    <li><a href="associations-saeindia.html">SAEINDIA-SJEC Collegiate Club</a></li>
-                                    <li><a href="associations-labsview.html"> SJEC LabVIEW Academy</a></li>
-                                    <li><a href="associations-nptel.html"> NPTEL-SJEC</a></li>
-                                    <li><a href="https://sites.google.com/sjec.ac.in/nain-sjec/home"
-                                            target="_blank"> NAIN</a></li> -->
-                            <!-- </ul>
-                                </div>
-
-                            </div>
-                        </li> -->
-
-                            <!-- <li class="menu-el">
-                            <a>Quick Links</a>
-                            <div class="mdf_sub_wrap row mdf_fall">
-                                <div class="col-sm-3 col-xs-12">
-                                    <div class="cl-title">
-                                        <h4>Staff</h4>
-                                    </div>
-                                    <ul class="mdf_child_menu">
-                                        <li><a href="">Management Committee</a></li>
-                                        <li><a href="">Administrative/Supportive Staff</a></li>
-                                        <li><a href="">Hostel Wardens</a></li>
-                                        <li><a href="">Maintenance Department</a></li>
-                                    </ul>
-                                    <div class="cl-title">
-                                        <h4>Rank Holders</h4>
-                                    </div>
-                                    <ul class="mdf_child_menu">
-                                        <li><a href="" target="_blank">VTU Rank Holders</a></li>
-                                </div>
-                                <div class="col-sm-3 col-xs-12">
-                                    <div class="cl-title">
-                                        <h4>Facilities </h4>
-                                    </div>
-                                    <ul class="mdf_child_menu">
-                                        <li><a href="">Computer Centre</a></li>
-                                        <li><a href="">Hostels</a></li>
-                                        <li><a href="">College Bus</a></li>
-                                        <li><a href="">Counselling Center</a></li>
-                                        <li><a href="">Conference Hall</a></li>
-                                        <li><a href="">Food Court</a></li>
-                                        <li><a href="">Stationery / Photocopy</a></li> -->
-                            <!--li><a href="scholarships.php">Scholarships</a></li-->
-                            <!-- <li><a href="dispensary.html">Dispensary</a></li> -->
-                            <!-- </ul>
-                                    <div class="cl-title">
-                                        <h4>NCC UNIT</h4>
-                                    </div>
-                                    <ul class="mdf_child_menu">
-                                        <li><a href="">NCC UNIT</a> </li>
-
-                                    </ul>
-
-                                </div>
-                                <div class="col-sm-3 col-xs-12">
-                                    <div class="cl-title">
-                                        <h4>Sports</h4>
-                                    </div>
-                                    <ul class="mdf_child_menu">
-                                        <li><a href="">Sports</a> </li>
-
-                                    </ul>
-
-
-                                    <div class="cl-title">
-                                        <h4>Photo Gallery</h4>
-                                    </div>
-                                    <ul class="mdf_child_menu">
-                                        <li><a href="">Photo Gallery</a> </li>
-
-                                    </ul>
-
-
-                                    <div class="cl-title">
-                                        <h4>Careers</h4>
-                                    </div>
-                                    <ul class="mdf_child_menu">
-                                        <li><a href="">Careers at KVGCE</a></li> -->
-                            <!-- <li><a href="vacancies.html">Vacancies</a></li> -->
-                            <!-- <li><a href="">Notifications</a></li>
-                                    </ul>
-                                    <div class="cl-title">
-                                        <h4>Research</h4>
-                                    </div>
-                                    <ul class="mdf_child_menu">
-                                        <li><a href="" target="_blank">Research</a></li>
-
-                                    </ul>
-
-                                    <div class="cl-title">
-                                        <h4>Social</h4>
-                                    </div>
-                                    <ul class="mdf_child_menu">
-                                        <li><a href="">Social Media Hub</a></li>
-                                    </ul>
-                                </div>
-
-
-
-
-                                <div class="col-sm-3 col-xs-12">
-                                    <img src="images/menu-img-1.jpg" class="img-responsive" style="padding:0;" />
-                                </div>
-
-                            </div>
-                        </li> -->
-
-
-                        <li class="menu-el">
-                            <a>Placement</a>
-                            <div class="mdf_sub_wrap row mdf_fall">
                                 <div class="col-sm-3 col-xs-12">
                                     <ul class="mdf_child_menu">
                                         <li><a href="placement.html">PLACEMENT</a></li>
@@ -434,14 +290,158 @@ body {
                                         <li><a href="" target="blank">KVGCE COLLABORATION</a></li>
                                     </ul>
                                 </div>
+                            </div> -->
+                        </li>
+                        <li class="menu-el">
+                            <a href="">Facilities</a>
+                                <div class="mdf_sub_wrap row mdf_fall">
+                                    <div class="col-sm-4 col-xs-12">
+                                        <!-- <div class="cl-title">
+                                            <h4>Undergraduate</h4>
+                                        </div> -->
+                                        <ul class="mdf_child_menu">
+                                            <ul>
+                                                <!-- <li><a href="department-cse-artificial-intelligence-ml.html">Artificial
+                                                    Intelligence & Machine Learning</a></li> -->
+                                                <li><a href="department-computer-science.html">Library</a></li>
+                                                        <li><a href="">Hostel</a></li>
+                                                <li><a href="">
+                                                        Transportation</a></li>
+                                                <li><a href="">
+                                                        EDC</a></li>
+                                                <li><a href="">SC/ST/OBC Cell</a></li>
+                                                <li><a href="">Minoroty Cell</a></li>
+                                                <li><a href="">CICC</a></li>
+                                                <li><a href="">Grievances and Reddressal Cell</a></li>
+                                                <li><a href="">Women Empowerment Wing</a></li>
+                                                <li><a href="">Student Mentoring Wing</a></li>
+                                                <li><a href="">Anti Ragging Cell</a></li>
+                                                <li><a href="">Banking </a></li>
+                                                <li><a href="">Xerox Centre</a></li>
+                                                <!--<li><a href="department-information-science.php">Information Science &amp; Engineering</a></li>-->
+    
+    
+                                            </ul>
+
+                                            
+                                            <!-- <ul class="mdf_child_menu">
+                                                <div class="cl-title">
+                                                    <h4>Postgraduate</h4>
+                                                </div>
+                                                <li><a href="">M.Tech</a></li>
+                                                <li><a href="">M.B.A</a></li>
+                                               
+        
+                                            </ul> -->
+                                        </ul>
+                                    </div>
+                                    <!-- <div class="col-sm-4 col-xs-12">
+                                        <div class="cl-title">
+                                            <h4>Basic Science</h4>
+                                        </div>
+                                        <ul class="mdf_child_menu">
+                                            
+                                            <li><a href="">Mathematics</a></li>
+                                            <li><a href="">Physics</a></li>
+                                            <li><a href="">Chemistry</a></li>
+    
+                                        </ul>
+                                        <ul class="mdf_child_menu">
+                                            <li><a href="">R & D </a></li>
+                                            <li><a href="">IQAC</a></li>
+                                            <li><a href="">Calender of Events</a></li>
+                                        </ul>
+                                        
+                                    </div> -->
+                                   
+    
+    
+                                </div>
+
+                        </li>
+                        <li class="menu-el">
+                            <a >Life @ KVGCE</a>
+                            <div class="mdf_sub_wrap row mdf_fall">
+                                <div class="col-sm-4 col-xs-12">
+                                    <!-- <div class="cl-title">
+                                        <h4>Undergraduate</h4>
+                                    </div> -->
+                                    <ul class="mdf_child_menu">
+                                        <ul>
+                                            <!-- <li><a href="department-cse-artificial-intelligence-ml.html">Artificial
+                                                Intelligence & Machine Learning</a></li> -->
+                                            <li><a href="">NSS/YRC/RRC</a></li>
+                                                  
+                                            <li><a href="">
+                                                    Sports</a></li>
+                                            <li><a href="">
+                                                    Alumni</a></li>
+                                          
+                                            
+                                           
+                                            <!--<li><a href="department-information-science.php">Information Science &amp; Engineering</a></li>-->
+
+
+                                        </ul>
+
+                                        
+                                        <!-- <ul class="mdf_child_menu">
+                                            <div class="cl-title">
+                                                <h4>Postgraduate</h4>
+                                            </div>
+                                            <li><a href="">M.Tech</a></li>
+                                            <li><a href="">M.B.A</a></li>
+                                           
+    
+                                        </ul> -->
+                                    </ul>
+                                    
+                                </div>
+                                <div class="col-sm-4 col-xs-12">
+                                    <div class="cl-title">
+                                        <h4>Clubs</h4>
+                                    </div>
+                                    <ul class="mdf_child_menu">
+                                        
+                                        <li><a href="">Makers Lab</a></li>
+                                        <li><a href="">Silverbot</a></li>
+                                        <li><a href="">Vayuthej/Vayujith</a></li>
+                                        <li><a href="">NPTEL/ATAL</a></li>
+                                        <li><a href="">photography & Animation Club</a></li>
+                                        <li><a href="">Cultural Club</a></li>
+
+                                    </ul>
+                                    
+                                    
+                                </div>
+                               
+                                <div class="col-sm-4 col-xs-12">
+                                    <div class="cl-title">
+                                        <h4>Association</h4>
+                                    </div>
+                                    <ul class="mdf_child_menu">
+                                        
+                                        <li><a href="">CENSA</a></li>
+                                        <li><a href="">ENCEA</a></li>
+                                        <li><a href="">ACE</a></li>
+                                        <li><a href="">MEA</a></li>
+                                        <li><a href="">MANASA</a></li>
+                                     
+
+                                    </ul>
+                                    
+                                    
+                                </div>
+
                             </div>
                         </li>
                         <li class="menu-el">
-                            <a href="">Library</a>
+                            <a href="">GALLERY</a>
                         </li>
                         <li class="menu-el">
                             <a href="">CONTACT US</a>
                         </li>
+
 
                     </ul>
                 </div>
@@ -457,9 +457,9 @@ body {
                 <li data-target="#carousel-example-generic" data-slide-to="4"></li>
                 <li data-target="#carousel-example-generic" data-slide-to="5"></li>
                 <li data-target="#carousel-example-generic" data-slide-to="6"></li>
-                <li data-target="#carousel-example-generic" data-slide-to="7"></li>
+                <!-- <li data-target="#carousel-example-generic" data-slide-to="7"></li>
                 <li data-target="#carousel-example-generic" data-slide-to="8"></li>
-                <li data-target="#carousel-example-generic" data-slide-to="9"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="9"></li> -->
 
             </ol>
 
@@ -504,43 +504,11 @@ body {
                 </div>
 
 
-
-
-                <div class="item   slide57"> <img data-src="admin-sjec/photos/slider/57.jpg" 
-                    src="admin-kvgce/images/banner/6.png">
-                    <!-- <div class="carousel-caption carousel-caption-1">
-                    </div> -->
-                </div>
-
-
-
-
-                <div class="item   slide48"> <img data-src="admin-sjec/photos/slider/48.jpg" 
-                    src="admin-kvgce/images/banner/7.png">
-                    <!-- <div class="carousel-caption carousel-caption-1">
-                    </div> -->
-                </div>
-
-
-
-
                 <div class="item   slide42"> <img data-src="admin-sjec/photos/slider/42.jpg" 
                     src="admin-kvgce/images/banner/6.jpg">
                     <!-- <div class="carousel-caption carousel-caption-1">
                     </div> -->
                 </div>
-
-
-
-
-                <div class="item   slide41"> <img data-src="admin-sjec/photos/slider/41.jpg" 
-                    src="admin-kvgce/images/banner/7.jpg"> 
-                    <!-- <div class="carousel-caption carousel-caption-1">
-                    </div>  -->
-                 </div>
-
-
-
 
                 <div class="item   slide35"> <img data-src="admin-sjec/photos/slider/35.jpg" 
                     src="admin-kvgce/images/banner/9.jpg">
@@ -548,22 +516,7 @@ body {
                     </div> -->
                  </div> 
 
-
-
-
-                <!-- <div class="item   slide34"> <img data-src="admin-sjec/photos/slider/34.jpg" src="admin-kvgce/10.png"> -->
-                <!-- <div class="carousel-caption carousel-caption-1">
-                    </div> -->
-                <!-- </div> -->
-
-
-
-
-                <!-- <div class="item   slide7"> <img data-src="admin-sjec/photos/slider/7.jpg" src="admin-kvgce/5.png"> -->
-                <!-- <div class="carousel-caption carousel-caption-1">
-                    </div> -->
-                <!-- </div> -->
-
+           
             </div>
 
 
@@ -657,10 +610,7 @@ body {
                     }
                 }
             </style>
-            <!-- 
-<div class="box">
-    <a class="button" href="#popup1">Let me Pop up</a>
-  </div> -->
+      
 
             <div id="popup1" class="overlay" style="z-index: 999;">
                 <div class="popup" style="top:30%; z-index: 100;float: left;">
@@ -724,459 +674,833 @@ body {
 
         </div>
         <a id="menu-toggle" href="#popup1" class="hidden-xs">
-            <div class="parent" style="float:left;">
-                <span onclick="fireCredit()" style="float:left;"><i class="fa fa-bell"></i></span>
+            <div class="parent" style="float:right;">
+                <span onclick="fireCredit()" style="float:right;"><i class="fa fa-bell"></i></span>
             </div>
         </a>
-        <!-- <div class="slide-hang active wow fadeInRight">
-
-            <div class="anouncements-bg wow fadeInUp" data-wow-delay="0.4s">
-                <a id="close-menu" href="#nogo" class="slide-hang-close"> <i
-                        class="fa fa-window-close faa-horizontal animated"></i> </a>
-                <a class="btn-one-full" href="#" target="blank">Student Corner</a> -->
-        <!-- https://sites.google.com/sjec.ac.in/sjec-updates/home -->
-        <!-- <ul class="anouncements-top-list list">
-
-                    <li class="wow fadeInRight"><a href="#" target="_blank"> KVG Hostels</a></li> -->
-        <!-- hostel.html -->
-        <!-- <li class="wow fadeInRight"><a href="#" target="_blank"> -->
-        <!-- https://sites.google.com/sjec.ac.in/sjec-updates/examination-updates -->
-        <!-- Updates on Exams
-                        </a></li>
-
-                    <li class="wow fadeInRight"><a href="#" target="_blank"> -->
-        <!-- https://sites.google.com/sjec.ac.in/sjec-updates/student-updates -->
-        <!-- Updates for Current Students
-                        </a></li> -->
-        <!-- 
-                    <li class="wow fadeInRight"><a href="#" target="_blank"> -->
-        <!-- https://sites.google.com/sjec.ac.in/sjec-updates/admissions-updates -->
-        <!-- Updates for New Admissions
-                        </a></li>
-                </ul>
-            </div>
-        </div>  -->
+     
 
     </section>
     
-    <!-- news -->
+   
+<!--Copy this into your website or website generator, in the HTML section.-->
+<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+<style>
+  .news-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+  }
 
+  .article-container {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    width: 28vw; /* Increase this value if you want more articles per row, decrease if you want less*/
+    min-width: 150px;
+    max-width: 700px;
+    box-shadow: 2px 2px 25px 2px rgba(0,0,0,0.9);
+    margin: 20px;
+    transition: 0.3s;
+    font-size: 14px;
+    font-family: 'Lora', serif;
+  }
 
-
-
-    <style>
-        .shownews {
-            font-weight: 700;
-            color: #fff;
-            width: 600px;
-            margin: 50px auto;
-            text-transform: uppercase;
-            font-family: open sans;
-            display: grid;
-            grid-template-columns: max-content auto;
-            grid-column-gap: 3px;
-
-        }
-
-        .shownews .title {
-            background: #6d1400;
-            display: inline-block;
-            padding: 8px 16px;
-            clip-path: polygon(0px 0px, 100% 0, 100% 100%, 0px 100%);
-            animation: mask 0.5s;
-            animation-iteration-count: 1;
-            animation-timing-function: ease;
-        }
-
-        .shownews #news {
-            background: #04192e;
-            display: inline-block;
-            padding: 8px 16px;
-
-            clip-path: polygon(100% 100%, 100% 100%, 100% 100%, 100% 100%);
-            animation: mask 2s;
-            animation-iteration-count: 1;
-            animation-timing-function: ease;
-            animation-fill-mode: forwards;
-            animation-delay: 1s;
-        }
-
-        .shownews #news a {
-            color: #fff;
-            text-decoration: none;
-        }
-
-        @keyframes mask {
-            0% {
-                clip-path: polygon(0px 0px, 0% 0, 0% 100%, 0px 100%);
-            }
-
-            100% {
-                clip-path: polygon(0px 0px, 100% 0, 100% 100%, 0px 100%);
-            }
-        }
-    </style>
-
-
-
-    </a>
-
-    <div class="shownews" >
-        <div class="title">News</div>
-        <div id="news"><span id="text"></span></div>
-    </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-
-
-    <div id="popup2" class="overlay" style="z-index: 999;">
-        <div class="popup" style="top:30%; z-index: 100;float: left;">
-            <center>
-                <div style="background-color: rgb(0,10,114);
-        border: none;
-        color: white;
-        padding: 20px;
-        padding-left: 15%;
-        padding-right: 15%;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-        margin: 4px 2px; border-radius: 8px;"><strong>The NSS unit celebrated World environmental day in college on 16-06-2022</strong> </div>
-            </center>
-            <a class="close" href="#">&times;</a><br>
-<p style="font-family: Calibri;"><i></i>"The NSS unit celebrated World environmental day in college on 16-06-2022, Thursday.  Mr. Girish R, RFO Sullia Range has delivered a seminar on “Awareness on Ecology” and their subordinates Mr Chandru N and Mr. Venkatesh has given the information of job opportunities in department of forestry for an engineering students."</i></p>
-            
-        </div>
-    </div>
-    <div id="popup3" class="overlay" style="z-index: 999;">
-        <div class="popup" style="top:30%; z-index: 100;float: left;">
-            <center>
-                <div style="background-color: rgb(0,10,114);
-        border: none;
-        color: white;
-        padding: 20px;
-        padding-left: 15%;
-        padding-right: 15%;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-        margin: 4px 2px; border-radius: 8px;"><strong>Tech talk on job opportunities in core domain by Mr. Sachin Prabhu</strong> </div>
-            </center>
-            <a class="close" href="#">&times;</a>
-            <br>
-            <p style="font-family: Calibri;"><i>"Technical talk conducted on 
-                job opportunities in core domain by Mr. Sachin Prabhu, founder and managing director MANIPAL Edu. on 15/06/2022 by ECE department"</i></p>
-
-        </div>
-    </div>
-    <div id="popup4" class="overlay" style="z-index: 999;">
-        <div class="popup" style="top:30%; z-index: 100;float: left;">
-            <center>
-                <div style="background-color: rgb(0,10,114);
-        border: none;
-        color: white;
-        padding: 20px;
-        padding-left: 15%;
-        padding-right: 15%;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-        margin: 4px 2px; border-radius: 8px;"><strong>Guidelines for final project submission” for final year MBA students</strong> </div>
-            </center>
-            <a class="close" href="#">&times;</a>
-            <br>
-            <p style="font-family: Calibri;"><i> "Department of management studies held workshop on “Guidelines for final project submission” for final year MBA students by resource person is Dr. Savitha. M. Director for PG Programmes, dept of E & C KVGCE at MBA seminar hall on 23.06.2022"</i></p>
-
-        </div>
-    </div>
-
-    <div id="popup5" class="overlay" style="z-index: 999;">
-        <div class="popup" style="top:30%; z-index: 100;float: left;">
-            <center>
-                <div style="background-color: rgb(0,10,114);
-        border: none;
-        color: white;
-        padding: 20px;
-        padding-left: 15%;
-        padding-right: 15%;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-        margin: 4px 2px; border-radius: 8px;"><strong>V8 Flood light cricket tournament</strong> </div>
-            </center>
-            <a class="close" href="#" style="color: red;">&times;</a>
-<br>
-            <p style="font-family: Calibri;"><i> "V8 Flood light cricket tournament was conducted on 07-05-2022 at K V G play ground. Innuagrated by Dr. Renuka Prasad K V, General Secretary AOLE(R), Sullia, Vice president rajya vokkaligara sangha. V8 winners are MBA Managers, runners E & C Vikings."</i></p>
-        </div>
-    </div>
-    <script>
-        var pace = 5000; //Pace show
-
-        //News and links
-        const news = [
-            {
-                news: "The NSS unit celebrated World environmental day in college on 16-06-2022",
-                link: "#popup2"
-            },
-            {
-                news: "Tech talk on job opportunities in core domain by Mr. Sachin Prabhu",
-                link: "#popup3"
-            },
-            {
-                news: "Guidelines for final project submission for final year MBA students",
-                link: "#popup4"
-            },
-            {
-                news: "V8 Flood light cricket tournament ",
-                link: "#popup5"
-            },
-        ];
-
-
-
-        const shownews = news.map((key) => key.news);
-        const newslink = news.map((key) => key.link);
-
-        //Show News and links
-        function allnews() {
-            for (let i = 0; i < news.length; i++) {
-                setTimeout(function () {
-                    $("#text").fadeOut("slow", function () {
-                        $("#text").html("<a href=" + newslink[i] + ">" + shownews[i] + "</a>");
-                    });
-                    $("#text").fadeIn();
-                }, pace * i);
-            }
-        }
-        allnews();
-    </script>
-
-
-
-
-    <!-- Endnews -->
-
-  <!-- dept sec  -->
-  <style>
-    .main {
-        position: relative;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-
+  @media only screen and (max-width: 850px) {
+    .article-container {
+      width: 90vw;
     }
+  }
 
-    .card {
-        margin: 8px;
-        position: relative;
-        display: flex;
-        height: 330px;
-        width: 220px;
-        background-color: #ffffff;
-        border-radius: 15px;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: nowrap;
-        flex-direction: column;
-        text-align: center;
-        border: 2px solid rgb(88 199 250);
-        overflow: hidden;
-        transition: .6s;
-        box-shadow: 0px 0px 100px rgba(88, 199, 250, .15);
-       
+  .article-container:hover {
+    transform: scale(1.02);
+    box-shadow: 2px 2px 25px 2px rgba(139, 139, 139, 0.89);
 
-    }
+  }
 
-    .text1 {
-        position: relative;
-        font-size: 33px;
-        font-family: roboto;
-        color: rgb(88 199 250);
-        font-weight: 100;
-        letter-spacing: 1px;
-        transition: .7s;
-        transform: translateY(110px);
+  .article-image {
+    width: 100%;
+    max-height: 100%;
+  }
 
-
-
-
-    }
-
-    .card:hover .text1 {
-        transform: translateY(-150px);
-        opacity: 0
-    }
-
-    .text2 {
-        color: #000000;
-        font-family: roboto;
-        font-weight: 100;
-        font-size: 14px;
-        width: 170px;
-        line-height: 25px;
-        transform: translateY(200px);
-        transition: .7s;
-        opacity: 0
-    }
-
-    .hover {}
-
-    #h12 {
-        font-size: 38px;
-        font-family: roboto;
-        color: rgb(88 199 250);
-        font-weight: 400;
-        margin: 0;
-        padding: 0;
-        transform: translateY(200px);
-        opacity: 1;
-        transition: .6s;
-        opacity: 0
-    }
-
-    #playbtn {
-        transform: translatey(200px);
-        transition: .88s;
-        opacity: 0;
-        width: 110px;
-        height: 38px;
-        border-radius: 40px;
-        font-size: 12px;
-        font-family: roboto;
-        text-transform: uppercase;
-        font-weight: 300;
-        letter-spacing: 1px;
-        color: white;
-        background-color: #0beef9;
-        background-image: linear-gradient(315deg, #0beef9 0%, #48a9fe 74%);
-        border: none;
-        cursor: pointer
-    }
-
-    .card:hover .hover {
-        display: block
-    }
-
-    .card:hover h2 {
-        transform: translatey(-38px);
-        opacity: 1
-    }
-
-    .card:hover .text2 {
-        transform: translatey(-20px);
-        opacity: 1
-    }
-
-    .card:hover button {
-        transform: translatey(5px);
-        opacity: 1
-    }
-
-    .card:hover {
-        transform: scale(110%);
-        box-shadow: 0px 0px 100px rgb(88 199 250);
-    }
-
-    button:active {
-        color: #0beef9
-    }
-
-    /*@keyframes scale
-{
-0%{transform:scale(100%) translateY(100px)}
-50%{transform:scale(103%) translateY(100px)}
-100%{transform:scale(100%) translateY(100px)}
-}
-*/
+  .article-title {
+    padding: 10px;
+  }
 </style>
 
 
-<br><br><br>
-<div class="main" >
+  
 
-    <div class="card" style="background-color: #04192e; ">
-        <div class="text1" style="background-color: #04192e;">Computer Science</div>
-        <div class="hover">
-            <h2 id="h12">Card One</h2>
-            <div class="text2" style="color: white;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita autem
-                dignissimos et tenetur, pariatur dolore voluptas.</div>
-            <button id="playbtn">Read More</button>
+  <!-- dept sec  -->
+ <br><br><br>
+<!-- news and Events -->
+
+<div class="name">
+    <strong><div class="header-fullname" style="font-size: 30px;text-align: center;">
+        News & Events</div></strong>
+       
+    </div>
+<div class="tab-content margin-tops">
+
+    <div class="tab-pane fade team active in" id="abouts">
+       
+        <div class="col-md-12">
+                      
+        
+            <section>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading" role="tab" id="headingOne">
+                                        <h4 class="panel-title"> <a role="button" data-toggle="collapse"
+                                                data-parent="#accordion" href="#collapseOne" aria-expanded="true"
+                                                aria-controls="collapseOne"> Department of management studies held workshop on “Guidelines for final project </a> </h4>
+                                    </div>
+                                    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel"
+                                        aria-labelledby="headingOne">
+                                        <!-- <div class="panel-body">
+                                            <p>"To Produce qualified Computer Science & Engineering graduates with human values
+                                                and ethical Skills" </p>
+                                        </div> -->
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading" role="tab" id="headingTwo">
+                                        <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse"
+                                                data-parent="#accordion" href="#collapseTwo" aria-expanded="false"
+                                                aria-controls="collapseTwo">V8 Flood light cricket tournament conducted on 07-05-2022 at K V G play ground.  </a> </h4>
+                                    </div>
+                                    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel"
+                                        aria-labelledby="headingTwo">
+                                        <!-- <div class="panel-body">
+                                            <p>
+                                            <ul class="list">
+                                                <li>Impart students with strong fundamental concepts, analytical capability,
+                                                    programming and problem solving skills.</li>
+                                                <li>Encourage an ambience of education through faculty training, self learning,
+                                                    sound academic practices and Industry related endeavors.</li>
+                                                <li>Imbibe environment Conciseness, social awareness and responsibility in
+                                                    students to serve the society.</li>
+                                            </ul>
+                                            </p>
+                                        </div> -->
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading" role="tab" id="headingThree">
+                                        <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse"
+                                                data-parent="#accordion" href="#collapseThree" aria-expanded="false"
+                                                aria-controls="collapseThree"> The NSS unit celebrated World environmental day in college on 16-06-2022, </a> </h4>
+                                    </div>
+                                    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel"
+                                        aria-labelledby="headingThree">
+                                        <!-- <div class="panel-body">
+                                            <p>
+                                            <ul class="list">
+                                                <li>Apply Engineering Basics Analyze Engineering Challenges through application
+                                                    of mathematical and Algorithmic principles for real life technology
+                                                    projects.
+                                                </li>
+                                                <li>Engineering Skills and techniques Apply skills like Analyzing, Designing,
+                                                    Implementing and Testing of Major and Minor Projects</li>
+                                                <li>Individual and Team Work Exhibit collaborative abilities in the engineering
+                                                    projects like Communication Skill, work as individual or in a team with a
+                                                    sense of Social Responsibility</li>
+                                                <li>Life Long Learning Initiate technological and skills required for
+                                                    comprehensive contribution as experts in the Chosen Profession.</li>
+                                            </ul>
+                                            </p>
+                                        </div> -->
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading" role="tab" id="headingFour">
+                                        <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse"
+                                                data-parent="#accordion" href="#collapseFour" aria-expanded="false"
+                                                aria-controls="collapseFour">" job opportunities in core domain" by Mr. Sachin Prabhu, founder and managing director MANIPAL Edu. on 15/06/2022 by ECE department</a> </h4>
+                                    </div>
+                                    <div id="collapseFour" class="panel-collapse collapse" role="tabpanel"
+                                        aria-labelledby="headingFour">
+                                        <div class="panel-body">
+                                            <p>
+                                            <!-- <ul class="list">
+                                                By the end of the undergraduate programme in CSE, graduates will be able to:
+                                                <li>Engineering Knowledge: To apply the knowledge of mathematics, science,
+                                                    engineering fundamentals, and an engineering specialization to the solution
+                                                    of complex engineering problems</li>
+                                                <li>Problem Analysis: Identify, formulate, review research literature, and
+                                                    analyze complex Engineering problems reaching substantiated conclusions
+                                                    using first principles of mathematics, natural sciences, and engineering
+                                                    sciences.</li>
+                                                <li>Design/Development of Solutions: Design solutions for complex engineering
+                                                    problems and design system components or processes that meet the specified
+                                                    needs with appropriate considerations for the public health and safety, and
+                                                    the cultural, societal, and environmental considerations</li>
+                                                <li>Use research-based knowledge and research methods including design of
+                                                    experiments, analysis and interpretation of data, and synthesis of the
+                                                    information to provide valid conclusions.</li>
+                                                <li>Create, select, and apply appropriate techniques, resources, and modern
+                                                    engineering and IT tools including prediction and modeling to complex
+                                                    engineering activities with an understanding of the limitations.</li>
+                                                <li>Apply reasoning informed by the contextual knowledge to assess societal,
+                                                    health, safety, legal and cultural issues and the consequent
+                                                    responsibilities relevant to the professional engineering practice.</li>
+                                                <li>Understand the impact of the professional engineering solutions in societal
+                                                    and environmental contexts, and demonstrate the knowledge of, and need for
+                                                    sustainable development.</li>
+                                                <li>Apply ethical principles and commit to professional ethics and
+                                                    responsibilities
+                                                    and norms of the engineering practice.</li>
+                                                <li>Function effectively as an individual, and as a member or leader in diverse
+                                                    teams, and in multidisciplinary settings.</li>
+                                                <li>Communicate effectively on complex engineering activities with the
+                                                    engineering
+                                                    community and with society at large, such as, being able to comprehend and
+                                                    write
+                                                    effective reports and design documentation, make effective presentations,
+                                                    give and receive clear instructions.</li>
+                                                <li>Demonstrate knowledge and understanding of the engineering and management
+                                                    principles
+                                                    and apply these to one’s own work, as a member and leader in a team, to
+                                                    manage projects
+                                                    and in multidisciplinary environments.</li>
+                                                <li>Recognize the need for, and have the preparation and ability to engage in
+                                                    independent and life-long learning in the broadest context of technological
+                                                    change.</li>
+                                            </ul> -->
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                              
+
+
+                               
+                            </div>
+                        </div>
+                        <!--- END COL -->
+                    </div>
+                    <!--- END ROW -->
+                </div>
+            </section>
+        
+        
         </div>
+
+
+        <style>
+            .responstable {
+                border-radius: 18px;
+            }
+        </style>
+
+        
     </div>
 
-    <div class="card" style="background-color: #04192e;">
-        <div class="text1">AI & ML</div>
-        <div class="hover">
-            <h2 id="h12">Card One</h2>
-            <div class="text2" style="color: white;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita autem
-                dignissimos et tenetur, pariatur dolore voluptas.</div>
-            <button id="playbtn">Read More</button>
-        </div>
-    </div>
+   
+   
+   
 
-    <div class="card" style="background-color: #04192e;">
-        <div class="text1" style="font-size: 24px;">Electronics and Communications</div>
-        <div class="hover">
-            <h2 id="h12">Card One</h2>
-            <div class="text2" style="color: white;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita autem
-                dignissimos et tenetur, pariatur dolore voluptas.</div>
-            <button id="playbtn">Read More</button>
-        </div>
-    </div>
 
-    <div class="card" style="background-color: #04192e;">
-        <div class="text1">Mechanical Engineering</div>
-        <div class="hover">
-            <h2 id="h12">Card One</h2>
-            <div class="text2" style="color: white;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita autem
-                dignissimos et tenetur, pariatur dolore voluptas.</div>
-            <button id="playbtn">Read More</button>
-        </div>
-    </div>
+  
 
-    <div class="card" style="background-color: #04192e;">
-        <div class="text1">Civil Engineering</div>
-        <div class="hover">
-            <h2 id="h12">Card One</h2>
-            <div class="text2" style="color: white;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita autem
-                dignissimos et tenetur, pariatur dolore voluptas.</div>
-            <button id="playbtn">Read More</button>
-        </div>
-    </div>
+
+
+   
+
+   
+  
+
+
 </div>
 
 
 
+<!-- departments -->
+ <div class="name">
+    <strong><div class="header-fullname" style="font-size: 30px;text-align: center;">
+        Departments</div></strong>
+       
+    </div>
+ <div class="tab-content faculty-tab-content responsive">
+    <!-- teaching staff starts-->
+    <div class="tab-pane active fade in" id="teaching-faculty">
+        <div class="row">
+            <link rel="stylesheet"
+                href="https://use.fontawesome.com/releases/v5.10.2/css/all.css">
+
+            <style>
+                #team {
+                    padding: 60px 0;
+                    text-align: center;
+                    background-color: #d1d1d1;
+                    color: #145889;
+                }
+
+                #team h2 {
+                    position: relative;
+                    padding: 0px 0px 15px;
+                }
+
+                #team p {
+                    font-size: 15px;
+                    font-style: italic;
+                    padding: 0px;
+                    margin: 25px 0px 40px;
+                }
+
+                #team h2::after {
+                    content: '';
+                    border-bottom: 2px solid #fff;
+                    position: absolute;
+                    bottom: 0px;
+                    right: 0px;
+                    left: 0px;
+                    width: 90px;
+                    margin: 0 auto;
+                    display: block;
+                }
+
+                #team .member {
+                    margin-bottom: 20px;
+                    position: relative;
+                    overflow: hidden;
+                    background-color: #ffffff;
+                    padding: 10px;
+                    border-radius: 15px 0px 15px 0px;
+                    box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.4);
+                }
+
+                #team .member .member-info {
+                    display: block;
+                    position: absolute;
+                    bottom: 0px;
+                    left: -200px;
+                    transition: 0.4s;
+                    padding: 15px 0;
+                    background: rgba(0, 0, 0, 0.4);
+                }
+
+                #team .member:hover .member-info {
+                    left: 0px;
+                    right: 0px;
+                }
+
+                #team .member h4 {
+                    font-weight: 700;
+                    margin-bottom: 2px;
+                    font-size: 18px;
+                    color: #fff;
+                }
+
+                #team .member span {
+                    font-style: italic;
+                    display: block;
+                    font-size: 13px;
+                }
+
+                #team .member .social-links {
+                    margin-top: 15px;
+                }
+
+                #team .member .social-links a {
+                    transition: none;
+                    color: #fff;
+                }
+
+                #team .member .social-links a:hover {
+                    color: #ffc107;
+                }
+
+                #team .member .social-links i {
+                    font-size: 18px;
+                    margin: 0 2px;
+                }
+
+                .col-lg-3 {
+                    float: left;
+                    margin-left: 6.5%;
+                }
+            </style>
+            <section id="team">
+                <div class="container">
+                    <!-- <div class="row justify-content-center">
+<div class="col-md-6">
+<h2>Meet Our Team</h2>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text</p>
+</div>
+</div> -->
+         <div class="row" style="align-items:center">
+<div class="col-lg-3 col-md-6">
+<div class="member">
+<div class="member-img">
+    <img src="admin-kvgce/photos/slider/laptop.jpg"
+        class="img-fluid" alt="">
+</div>
+<div class="member-info">
+    <h4>Computer Science Engineering</h4>
+    <span></span>
+    <!-- <div class="social-links">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#"><i class="fab fa-pinterest-p"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+    </div> -->
+</div>
+</div>
+</div>
+
+<div class="col-lg-3 col-md-6">
+<div class="member">
+<div class="member-img">
+    <img src="admin-kvgce/photos/slider/artificial-intelligence.jpg"
+        class="img-fluid" alt="">
+</div>
+<div class="member-info">
+    <h4>Computer Science Engineering(AI & ML)</h4>
+    <span></span>
+    <!-- <div class="social-links">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#"><i class="fab fa-pinterest-p"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+    </div> -->
+</div>
+</div>
+</div>
+
+<div class="col-lg-3 col-md-6">
+<div class="member">
+<div class="member-img">
+    <img src="admin-kvgce/photos/slider/electric.jpg"
+        class="img-fluid" alt="">
+</div>
+<div class="member-info">
+    <h4>Electronics & Communication</h4>
+    <span></span>
+    
+</div>
+</div>
+</div>
 
 
-<!--End dept sec  -->
+<div class="col-lg-3 col-md-6">
+    <div class="member">
+    <div class="member-img">
+        <img src="admin-kvgce/photos/slider/wheel.jpg"
+            class="img-fluid" alt="">
+    </div>
+    <div class="member-info">
+        <h4>Mechanical Engineering</h4>
+        <span></span>
+        
+    </div>
+    </div>
+    </div>
 
-    <section class="home-about-sjec-bg">
-        <div class="container">
-            <div class="col-md-6">
-                <div class="home-about-sjec-left">
-                    <h1 align="left">A Few Words<br />About the KVG college of engineering sullia <div></div>
-                    </h1>
-                    <p class="text-large">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos
-                        voluptatem voluptatum quia recusandae odio doloremque est expedita animi rerum! Minima saepe
-                        magni perspiciatis officia obcaecati error, officiis quaerat vel praesentium natus alias
-                        excepturi labore quasi, quidem doloribus expedita possimus libero sunt minus voluptatem.
-                        Pariatur, temporibus nemo! Deleniti reiciendis quae nobis!</p>
-                    <a href="#" class="btn-one-full">Read More</a>
-                    <!-- about-sjec.html -->
-                </div>
-            </div>
-            <div class="col-md-6 home-about-sjec-right">
-                <img src="images/KVGCE-Logo.png" width="40%" class="img-responsive">
-            </div>
+
+    <div class="col-lg-3 col-md-6">
+        <div class="member">
+        <div class="member-img">
+            <img src="admin-kvgce/photos/slider/civil2.jfif"
+                class="img-fluid" alt="">
         </div>
-    </section>
+        <div class="member-info">
+            <h4>Civil Engineering</h4>
+            <span></span>
+            
+        </div>
+        </div>
+        </div>
 
+        </div>
+             </div>
+            </section>
+        </div>
+    </div>
+
+
+
+</div>
+
+
+ 
+   <!-- fews word  -->
+   <section class="home-facts-bg">
+    <div class="container">
+        <div class="col-md-12">
+            <h2 class="subheadWhite head">KVG College of Engineering<span></span></h2>
+            <style>
+              
+
+.data_more_less_inner {
+overflow: hidden;
+margin-bottom: 20px;
+position: relative;
+}
+
+.action_less {
+display: none;
+}
+
+.less_active .action_less {
+display: inline-block;
+}
+
+.less_active .action_more {
+display: none;
+}
+
+.data_more_less:not(.less_active):not(.action_disabled) .data_more_less_inner:after {
+content: '';
+display: block;
+position: absolute;
+bottom: 0;
+left: 0;
+width: 100%;
+background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
+background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
+background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00ffffff', endColorstr='#ffffff',
+        GradientType=0);
+height: 80px;
+}
+
+.data_more_less.action_disabled .more_less_action {
+display: none;
+}
+
+h1 {
+margin-bottom: 0px;
+}
+
+.btn {
+color: rgb(0, 0, 0);
+text-decoration: none;
+border: 1px solid rgb(0, 0, 0);
+border-radius: 18px;
+padding: 7px 15px;
+}
+
+.btn:hover {
+background: rgb(92, 92, 92);
+color: rgb(255, 255, 255);
+}
+
+
+
+
+/* stat */
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Anek+Bangla:wght@100;300;700&display=swap');
+
+ul {
+list-style: none;
+}
+
+body {
+min-height: 100vh;
+background-color: #f7f8fc;
+}
+
+.section {
+min-height: 50vh;
+margin: 0 30px;
+}
+
+.container1 {
+padding-left: 25px;
+padding-right: 25px;
+display: flex;
+align-items: center;
+justify-content: center;
+height: fit-content;
+font-family: 'Anek Bangla', sans-serif;
+font-weight: bold;
+}
+
+.card {
+/* background-color: rgb(255, 187, 30); */
+background-image: linear-gradient(to right bottom, rgb(0, 10, 114), #4c449d);
+padding: 3rem 3.5rem;
+border-radius: 15px;
+display: flex;
+flex-wrap: wrap;
+position: relative;
+max-width: 500px;
+border: 3px solid black;
+border-radius: 8px;
+/* z-index: 0; */
+}
+
+.card::before {
+content: '';
+position: absolute;
+top: -15px;
+left: 1px;
+width: 101%;
+height: 110%;
+background-image: linear-gradient(to right bottom, #4c449d, rgb(0, 10, 114));
+z-index: -1;
+border-radius: 15px;
+transform: rotate(-8deg);
+box-shadow: 0 0 45px 5px rgba(0, 0, 0, .2);
+border: 3px solid black;
+    border-radius: 8px;
+}
+
+.card li {
+width: 50%;
+margin: 15px 0;
+}
+
+.card li p {
+display: flex;
+}
+
+.card li h3 {
+display: inline-block;
+font-size: 2rem;
+color: rgb(255, 255, 255);
+vertical-align: top;
+margin-right: 5px;
+line-height: 1.2;
+}
+
+.card li .fa {
+font-size: 18px;
+}
+
+.card li span {
+color: #ffffff;
+font-weight: bold;
+font-size: 14px;
+}
+
+
+.clr-up {
+color: green;
+}
+
+.clr-down {
+color: red;
+}
+
+@media screen and (max-width: 500px) {
+.card::before {
+    top: -10px;
+    left: -2px;
+}
+
+.card li {
+    width: 100%;
+}
+
+.card li:not(:first-of-type) {
+    margin-top: 15px;
+}
+}
+
+
+
+
+/* HOD Card */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;700&display=swap');
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+< !-- body {
+font-family: 'Poppins', sans-serif;
+align-items: center;
+justify-content: center;
+background-color: #ADE5F9;
+min-height: 100vh;
+}
+
+-->img {
+max-width: 100%;
+display: block;
+}
+
+ul {
+list-style: none;
+}
+
+/* Utilities */
+.card1::after,
+.card1 img {
+border-radius: 2%;
+}
+
+.card1,
+.stats1 {
+display: flex;
+}
+
+.card1 {
+padding: 2.5rem 2rem;
+border-radius: 10px;
+background-image: linear-gradient(to right bottom, rgb(0, 174, 255), #ffd786);
+max-width: 90%;
+box-shadow: 0 0 30px rgba(0, 0, 0, .15);
+margin: 1rem;
+position: relative;
+transform-style: preserve-3d;
+overflow: hidden;
+justify-content: center;
+}
+
+.card1::before,
+.card1::after {
+content: '';
+position: absolute;
+z-index: -1;
+}
+
+.card1::before {
+width: 100%;
+height: 100%;
+border: 1px solid #FFF;
+border-radius: 10px;
+top: -.7rem;
+left: -.7rem;
+}
+
+.card1::after {
+height: 15rem;
+width: 15rem;
+background-color: #4172f5aa;
+top: -8rem;
+right: -8rem;
+box-shadow: 2rem 6rem 0 -3rem #FFF
+}
+
+.card1 img {
+float: left;
+width: 150rem;
+min-width: 80px;
+box-shadow: 0 0 0 5px #FFF;
+}
+
+.infos {
+margin-left: 1.5rem;
+}
+
+.name {
+margin-bottom: 1rem;
+}
+
+.name h2 {
+font-size: 1.3rem;
+}
+
+.name h4 {
+font-size: .8rem;
+color: #333
+}
+
+.text {
+font-size: .9rem;
+margin-bottom: 1rem;
+}
+
+.stats1 {
+margin-bottom: 1rem;
+}
+
+.stats1 li {
+min-width: 5rem;
+}
+
+.stats1 li h3 {
+font-size: .99rem;
+}
+
+.stats1 li h4 {
+font-size: .75rem;
+}
+
+.links1 button {
+font-family: 'Poppins', sans-serif;
+min-width: 120px;
+padding: .5rem;
+border: 1px solid #222;
+border-radius: 5px;
+font-weight: bold;
+cursor: pointer;
+transition: all .25s linear;
+}
+
+.links1 .follow,
+.links1 .view:hover {
+background-color: #222;
+color: #FFF;
+}
+
+.links1 .view,
+.links1 .follow:hover {
+background-color: transparent;
+color: #222;
+}
+
+@media screen and (max-width: 450px) {
+.card1 {
+    display: block;
+}
+
+.infos {
+    margin-left: 0;
+    margin-top: 1.5rem;
+}
+
+.links1 button {
+    min-width: 100px;
+}
+} 
+            </style>
+         <center>   <div class="card1">
+                <div class="img">
+                    <img
+                        src="images/KVGCE-Logo.png" >
+                </div>
+                <div class="infos">
+                    <div class="name">
+                    <strong><div class="header-fullname" style="font-size: 20px;">A Few Words
+                        About the KVG college of engineering sullia</div></strong>
+                       
+                    </div>
+                    
+                    <ul class="stats1">
+                        <li>
+                            <blockquote>
+                                KVG College of Engineering is one of the most reputed engineering colleges in Karnataka, India. The engineering college, started in 1986, was one of the first private sector initiatives in technical education in Dakshina Kannada District.
+                                Popularly known as KVGCE, it is located in Kurunjibhag, Sullia, Dakshina Kannada. K.V.G. College of Engineering sponsored by Academy of Liberal Education (R) Sullia D.K. and is one of the largest mega educational complexes in India.</p>
+                               </blockquote>
+                        </li>
+                    </ul>
+                   
+                      
+                    </div>
+                </div>
+            </div> </center>
+           
+        </div>
+    </div>
+</section>
+  
 
 <!-- gallery1 -->
 
@@ -1432,7 +1756,7 @@ section {
 <section class="gallery1">
 	<div class="row1">
 		<h2>
-			< gallery1>
+			Gallery
 		</h2>
 	</div>
 	<div class="row1">
@@ -1440,74 +1764,36 @@ section {
 			<div class="fluid-container1">
 				<div class="item2">
 					<div class="img">
-						<img src="https://ucarecdn.com/e7c2b4a3-1b78-4658-92bb-e00a2e4db2f2/-/preview/-/quality/smart/">
+						<img src="images/department/cs/wifli.jpg">
 					</div>
-					<div class="info2"><span class="title2">image - 0</span>
-					</div>
-				</div>
-			</div>
-			<div class="fluid-container1">
-				<div class="item2">
-					<div class="img">
-						<img src="https://ucarecdn.com/bebb04f8-9d46-4c2d-a378-16f6b3d5b0f0/-/preview/-/quality/smart/">
-					</div>
-					<div class="info2"><span class="title2">image - 0</span>
+					<div class="info2"><span class="title2"></span>
 					</div>
 				</div>
 			</div>
 			<div class="fluid-container1">
 				<div class="item2">
 					<div class="img">
-						<img src="https://ucarecdn.com/062fab98-f492-4982-9e8f-2c810c9d8806/-/preview/-/quality/smart/">
+						<img src="images/department/cs/lib.jpg">
 					</div>
-					<div class="info2"><span class="title2">image - 0</span>
-					</div>
-				</div>
-			</div>
-			<div class="fluid-container1">
-				<div class="item2">
-					<div class="img">
-						<img src="https://ucarecdn.com/49523be3-efe8-432d-b461-b3db3a3b6a81/-/preview/-/quality/smart/">
-					</div>
-					<div class="info2"><span class="title2">image - 0</span>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="col1">
-			<div class="fluid-container1">
-				<div class="item2">
-					<div class="img">
-						<img src="https://ucarecdn.com/062fab98-f492-4982-9e8f-2c810c9d8806/-/preview/-/quality/smart/">
-					</div>
-					<div class="info2"><span class="title2">image - 0</span>
+					<div class="info2"><span class="title2"></span>
 					</div>
 				</div>
 			</div>
 			<div class="fluid-container1">
 				<div class="item2">
 					<div class="img">
-						<img src="https://ucarecdn.com/e7c2b4a3-1b78-4658-92bb-e00a2e4db2f2/-/preview/-/quality/smart/">
+						<img src="images/department/cs/group1.jpg">
 					</div>
-					<div class="info2"><span class="title2">image - 0</span>
-					</div>
-				</div>
-			</div>
-			<div class="fluid-container1">
-				<div class="item2">
-					<div class="img">
-						<img src="https://ucarecdn.com/bebb04f8-9d46-4c2d-a378-16f6b3d5b0f0/-/preview/-/quality/smart/">
-					</div>
-					<div class="info2"><span class="title2">image - 0</span>
+					<div class="info2"><span class="title2"></span>
 					</div>
 				</div>
 			</div>
 			<div class="fluid-container1">
 				<div class="item2">
 					<div class="img">
-						<img src="https://ucarecdn.com/49523be3-efe8-432d-b461-b3db3a3b6a81/-/preview/-/quality/smart/">
+						<img src="images/department/cs/1styesar.jpg">
 					</div>
-					<div class="info2"><span class="title2">image - 0</span>
+					<div class="info2"><span class="title2"></span>
 					</div>
 				</div>
 			</div>
@@ -1516,36 +1802,36 @@ section {
 			<div class="fluid-container1">
 				<div class="item2">
 					<div class="img">
-						<img src="https://ucarecdn.com/49523be3-efe8-432d-b461-b3db3a3b6a81/-/preview/-/quality/smart/">
+						<img src="images/department/cs/1year2.jpg">
 					</div>
-					<div class="info2"><span class="title2">image - 0</span>
-					</div>
-				</div>
-			</div>
-			<div class="fluid-container1">
-				<div class="item2">
-					<div class="img">
-						<img src="https://ucarecdn.com/062fab98-f492-4982-9e8f-2c810c9d8806/-/preview/-/quality/smart/">
-					</div>
-					<div class="info2"><span class="title2">image - 0</span>
+					<div class="info2"><span class="title2"></span>
 					</div>
 				</div>
 			</div>
 			<div class="fluid-container1">
 				<div class="item2">
 					<div class="img">
-						<img src="https://ucarecdn.com/bebb04f8-9d46-4c2d-a378-16f6b3d5b0f0/-/preview/-/quality/smart/">
+						<img src="images/department/cs/civil1.jpg">
 					</div>
-					<div class="info2"><span class="title2">image - 0</span>
+					<div class="info2"><span class="title2"></span>
 					</div>
 				</div>
 			</div>
 			<div class="fluid-container1">
 				<div class="item2">
 					<div class="img">
-						<img src="https://ucarecdn.com/e7c2b4a3-1b78-4658-92bb-e00a2e4db2f2/-/preview/-/quality/smart/">
+						<img src="images/department/cs/civil2.jpg">
 					</div>
-					<div class="info2"><span class="title2">image - 0</span>
+					<div class="info2"><span class="title2"></span>
+					</div>
+				</div>
+			</div>
+			<div class="fluid-container1">
+				<div class="item2">
+					<div class="img">
+						<img src="images/department/cs/placement.jpg">
+					</div>
+					<div class="info2"><span class="title2"></span>
 					</div>
 				</div>
 			</div>
@@ -1554,36 +1840,83 @@ section {
 			<div class="fluid-container1">
 				<div class="item2">
 					<div class="img">
-						<img src="https://ucarecdn.com/bebb04f8-9d46-4c2d-a378-16f6b3d5b0f0/-/preview/-/quality/smart/">
+						<img src="images/department/cs/ec1.jpg">
 					</div>
-					<div class="info2"><span class="title2">image - 0</span>
-					</div>
-				</div>
-			</div>
-			<div class="fluid-container1">
-				<div class="item2">
-					<div class="img">
-						<img src="https://ucarecdn.com/49523be3-efe8-432d-b461-b3db3a3b6a81/-/preview/-/quality/smart/">
-					</div>
-					<div class="info2"><span class="title2">image - 0</span>
+					<div class="info2"><span class="title2"></span>
 					</div>
 				</div>
 			</div>
 			<div class="fluid-container1">
 				<div class="item2">
 					<div class="img">
-						<img src="https://ucarecdn.com/e7c2b4a3-1b78-4658-92bb-e00a2e4db2f2/-/preview/-/quality/smart/">
+						<img src="images/department/cs/mba1.jpg">
 					</div>
-					<div class="info2"><span class="title2">image - 0</span>
+					<div class="info2"><span class="title2"></span>
 					</div>
 				</div>
 			</div>
 			<div class="fluid-container1">
 				<div class="item2">
 					<div class="img">
-						<img src="https://ucarecdn.com/062fab98-f492-4982-9e8f-2c810c9d8806/-/preview/-/quality/smart/">
+						<img src="images/department/cs/placement2.jpg">
 					</div>
-					<div class="info2"><span class="title2">image - 0</span>
+					<div class="info2"><span class="title2"></span>
+					</div>
+				</div>
+			</div>
+			<div class="fluid-container1">
+				<div class="item2">
+					<div class="img">
+						<img src="images/department/cs/campus.jpg">
+					</div>
+					<div class="info2"><span class="title2"></span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col1">
+			<div class="fluid-container1">
+				<div class="item2">
+					<div class="img">
+						<img src="images/department/cs/mba2.jpg">
+					</div>
+					<div class="info2"><span class="title2"></span>
+					</div>
+				</div>
+			</div>
+			<div class="fluid-container1">
+				<div class="item2">
+					<div class="img">
+						<img src="images/department/cs/management.jpg">
+					</div>
+					<div class="info2"><span class="title2"></span>
+					</div>
+				</div>
+			</div>
+			<div class="fluid-container1">
+				<div class="item2">
+					<div class="img">
+						<img src="images/department/cs/first1.jpg">
+					</div>
+					<div class="info2"><span class="title2"></span>
+					</div>
+				</div>
+			</div>
+			<div class="fluid-container1">
+				<div class="item2">
+					<div class="img">
+						<img src="images/department/cs/first2.jpg">
+					</div>
+					<div class="info2"><span class="title2"></span>
+					</div>
+				</div>
+			</div>
+            <div class="fluid-container1">
+				<div class="item2">
+					<div class="img">
+						<img src="images/department/cs/first3.jpg">
+					</div>
+					<div class="info2"><span class="title2"></span>
 					</div>
 				</div>
 			</div>
@@ -2425,11 +2758,11 @@ function isScrolledIntoView(el) {
                         <div class="single_footer">
                             <h4>Courses</h4>
                             <ul>
-                                <li><a href="#">Computer Science and Engineering</a></li>
-                                <li><a href="#">AI & ML</a></li>
-                                <li><a href="#">Electronics and Communication</a></li>
-                                <li><a href="#">Mechanical</a></li>
-                                <li><a href="#">Civil</a></li>
+                                <li><a href="#">Computer Science Engineering</a></li>
+                                <li><a href="#">Computer Science Engineering(AI & ML)</a></li>
+                                <li><a href="#">Electronics and Communication Engineering</a></li>
+                                <li><a href="#">Mechanical Engineering</a></li>
+                                <li><a href="#">Civil Engineering/a></li>
                                 <!-- <li><a href="#">-----------------</a></li>
                             <li><a href="#">Hostel Facilities</a></li>
                             <li><a href="#">Campus</a></li>
@@ -2465,7 +2798,7 @@ function isScrolledIntoView(el) {
                         </div>
                         <div class="social_profile">
                             <ul>
-                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="https://www.facebook.com/KVG-College-of-Engineering-105686592193925/?ref=page_internal"><i class="fab fa-facebook-f"></i></a></li>
                                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
                                 <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
                                 <li><a href="#"><i class="fab fa-instagram"></i></a></li>
@@ -2969,13 +3302,14 @@ function isScrolledIntoView(el) {
     </style>
 
     <div class="social" style="margin-left:2.5%;top:40%;z-index: 100;">
+        
         <a href="#">
             <div class="social-btn color-telegram">
                 <div class="icons8-telegram-app"></div>
                 <p class="order-1 google-font margin-telgram">Telegram</p>
             </div>
         </a>
-        <a href="#">
+        <a href="https://www.facebook.com/KVG-College-of-Engineering-105686592193925/?ref=page_internal">
             <div class="social-btn color-instagram">
                 <div class="icons8-instagram"></div>
                 <p class="order-1 google-font margin-instagram">instagram</p>
